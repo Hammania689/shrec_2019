@@ -1,0 +1,122 @@
+<html>
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+	<title>SHREC 2018 - 2D Scene Sketch-Based 3D Scene Retrieval</title>
+	<link rel="stylesheet" type="text/css" href="index_files/style.css">
+</head>
+
+<body>
+	<div id="wrapper">
+		<div id="header"><img id="usmlogo" src="index_files/USM.png"><img id="msstatelogo" src="index_files/txstprimary.png"
+			 align="right"></div>
+		<ul id="menu">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="data.html">DataSet</a></li>
+			<li><a href="updates.html">Updates</a></li>
+			<li><a href="results.html">Results</a></li>
+			<li><a href="Evaluation.html">Evaluation</a></li>
+		</ul>
+		<div id="content">
+			<p>
+			</p>
+			<p>
+			</p>
+
+			<div class="t1">SHREC 2019 - Extended 2D Scene Sketch-Based 3D Scene Retrieval</div>
+
+			<p>
+			</p>
+			<div class="t2">Call For Participation</div>
+
+
+			<br>SHREC 2018 - 2D Scene Sketch-Based 3D Scene Retrieval
+			<p></p>
+			<h1><a id="Organizers_0"></a>Organizers:</h1>
+			<p>Juefei Yuan, University of Southern Mississippi, USA<br> Hameed Abdul-Rashid, University of Southern Mississippi,
+				USA<br> Bo Li, University of Southern Mississippi, USA<br> Yijuan Lu, Texas State University, USA</p>
+			<h1><a id="Objective_7"></a>Objective:</h1>
+			<p>In the months following our SHREC 2018 - 2D Scene Image-Based 3D Scene<br> Retrieval (IBR) track, we have
+				extended the number of the scene categories from the initial 10<br> classes to 30 classes [1]. For that reason, we
+				seek to further evaluate the performances of new<br> and novel 2D scene Image-based 3D scene model retrieval
+				algorithms using our extended and<br> comprehensive benchmark</p>
+			<h1><a id="Introduction_15"></a>Introduction:</h1>
+			<p>2D scene image-based 3D scene model retrieval is to retrieve 3D scene models given an input 2D<br> scene image.
+				This task is far from trivial, for realistic 2D scene images lack 3D geometric context<br> as well as semantic
+				information. Due to limited 3D scene benchmarks and vast ambiguity in<br> dimensional semantic information between
+				scene images and scene models, 3D model retrieval<br> algorithms have consequently been limited to focus on single
+				object retrieval. Our motivation<br> behind this research are its extensive contributions to 3D scene understanding
+				as well as<br> reconstruction, Autonomous systems, 3D printing, etc.<br> Deng et al. [5] collected the ImageNet
+				database which ten years after its inception comprises over<br> 21,000 synsets indexed and nearly 14.2 million
+				images. While our SHREC 2018 IBR benchmark<br> incorporated only 10,000 images from ImageNet and 1000 corresponding
+				scene models from 3D<br> Warehouse both equally divided between the 10 indoor and outdoor classes, the initial
+				benchmark<br> was far from comprehensive and introduced distinct classes across both indoor and outdoor<br> scenes
+				[4].</p>
+			<p>To overcome such obstacles, we increased from 10 scene classes to 30 scene classes. Zhou et al.<br> collected the
+				Places88 composed a database of 10,624,928 scene images across 434 scene<br> categories [3]. Due to class imbalance
+				in ImageNet, we replaced all initial 10 classes as well as<br> established new classes with images from Places88.
+				As for our 3D scene models, we kept the<br> initial models used in the IBR benchmark and established 20 new
+				classes, each with 100 scene<br> models selected from 3D Warehouse.</p>
+			<p>Hence, this track seeks participants who will provide new contributions and advanced 2D scene<br> images-based 3D
+				scene model retrieval methods for evaluation and comparison. Upon<br> submission, we will evaluate and compare
+				results to not only other ExtendedSceneIBR methods<br> but also alongside the previously submitted IBR methods. We
+				will provide our methods of<br> evaluation, which correspond to those used in the initial IBR track.</p>
+			<p>Benchmark Overview:<br> Our extended 2D scene image-based 3D scene retrieval benchmark ExtendedSceneIBR expands<br>
+				the initial 10 classes of IBR with 20 new classes totaling a comprehensive dataset of 30 classes.<br> The
+				ExtendedSceneIBR contains a complete dataset of 30,000 2D scene images (1000 per class)<br> and 3,000 3D scene
+				models (100 per class). Example for each class are demonstrated in both Fig.<br> 1 and Fig. 2.<br> In the same
+				manner as the IBR track, we randomly pull 700 images and 70 models from each<br> class for training and the
+				remaining 300 images and 30 models are used for testing, as shown in<br> Table 1.</p>
+			<p>If a method involves a learning based approach(es), results for both the training and testing<br> datasets need
+				to be submitted. Otherwise, the retrieval results based on the test and complete<br> datasets are needed. To
+				provide future users a complete reference of our benchmark, we will<br> evaluate the participating algorithms on
+				both the testing dataset and the complete<br> ExtendedSceneIBR benchmark</p>
+			<hr>
+			<h2><a id="Insert_figures_and_captions_here_61"></a>Insert figures and captions here</h2>
+			<hr>
+			<h1><a id="Evaluation_Method_65"></a>Evaluation Method:</h1>
+			<p>To have a comprehensive evaluation of the retrieval algorithm, we employ seven commonly<br> adopted performance
+				metrics in 3D model retrieval community: Precision-Recall (PR) diagram,<br> Nearest Neighbor (NN), First Tier (FT),
+				Second Tier (ST), E-Measures (E), Discounted<br> Cumulated Gain (DCG) and Average Precision (AP) [5]. We have
+				developed the related code to<br> compute these metrics and will provide them to participants.</p>
+			<h1><a id="The_Procedural_Aspects_73"></a>The Procedural Aspects:</h1>
+			<p>The complete dataset will be made available on</p>
+			<h1><a id="Preliminary_Timeline_76"></a>Preliminary Timeline</h1>
+			<p>January 22 - Call for participation.</p>
+			<h1><a id="References_79"></a>References:</h1>
+			<p>[1] Hameed Abdul-Rashid and et al., SHREC 2018: 2D Scene Image-Based 3D Scene Retrieval,<br> Eurographics
+				Workshop on 3D Object Retrieval 2018 (3DOR 2018), 2018</p>
+			<p>[2] Jia Deng and et al. ImageNet: A large-scale hierarchical image database. CVPR 2009:<br> 248-255.</p>
+			<p>[3] B. Zhou and et al. Places: A 10 million image database for scene recognition. IEEE Trans.<br> Pattern Anal.
+				Mach. Intell., 40(6):1452–1464, 2018.</p>
+			<p>[4] 3D Warehouse. <a href="https://3dwarehouse.sketchup.com/?hl=en">https://3dwarehouse.sketchup.com/?hl=en</a>.</p>
+			<p>[5] B. Li and et al. A comparison of 3D shape retrieval methods based on a large-scale benchmark<br> supporting
+				multimodal queries. Computer Vision and Image Understanding</p>
+			<p>
+			</p>
+
+
+			<div class="t2">References</div>
+			[1] Hameed Abdul-Rashid and et al., SHREC 2018: 2D Scene Image-Based 3D Scene Retrieval,
+			Eurographics Workshop on 3D Object Retrieval 2018 (3DOR 2018), 2018
+
+			[2] Jia Deng and et al. ImageNet: A large-scale hierarchical image database. CVPR 2009:
+			248-255.
+
+			[3] B. Zhou and et al. Places: A 10 million image database for scene recognition. IEEE Trans.
+			Pattern Anal. Mach. Intell., 40(6):1452–1464, 2018.
+
+			[4] 3D Warehouse. [https://3dwarehouse.sketchup.com/?hl=en](https://3dwarehouse.sketchup.com/?hl=en).
+
+			[5] B. Li and et al. A comparison of 3D shape retrieval methods based on a large-scale benchmark
+			supporting multimodal queries. Computer Vision and Image Understanding
+
+			<div class="t2">Please cite the paper:</div>
+
+
+			<div id="footer">If you have any question, please email to <a href="mailto:hameed.abdulrashid@usm.edu">Hameed Abdul</a></div>
+
+		</div>
+</body>
+
+</html>
