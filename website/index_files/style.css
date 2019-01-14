@@ -42,19 +42,21 @@ img#nistlogo{
 	float: right;
 }
 div#header{
-	background-color: #E1E1E1;
+	background-color: rgb(207, 203, 214);
 }
 div#content{
 	padding-left: 10px;
 	padding-right: 10px;
+	text-align: left;
 	color: #4D5460;
 	text-indent: 0em;
-	background-color: #FFFFFF;
+	font-size: 2.2em;
+	background-color: rgb(207, 203, 214);
 }
 #menu{
 	text-align: left;
 	margin: 0;
-	background-color: #406386;
+	background-color: #443e30;
 	border-top-width: 1px;
 	border-top-color: #000000;
 	border-top-style: solid;
@@ -62,7 +64,7 @@ div#content{
 	padding-bottom: 5px;
 	padding-left: 0px;
 	padding-right: 0px;
-	font-size: 120%;
+	font-size: 3em;
 }
 
 #menu li{
@@ -88,7 +90,7 @@ div#footer{
 	border-top-color: black;
 	border-top-width: 1px;
 	font-size: 1.1em;
-	background-color: #294A6C;
+	background-color: #443e30;
 	padding-bottom: 0em;
 	height: 30px;
 	color: #FFFFFF;
@@ -99,7 +101,6 @@ div#footer{
 }
 #wrapper{
     margin: 0 auto;
-	text-align:left;
     width: 95%;
     background-color:  #EEEEEE;
 	border-left-color: #444444;
@@ -108,9 +109,31 @@ div#footer{
 	border-right-color: #444444;
 	border-right-style: solid;
 	border-right-width: 1px;
-
 }
 td{
 	white-space:nowrap;
 	vertical-align: top;
+}
+
+#thumbs {   
+    width: 540px;
+    margin-top:90px;
+    margin-left: auto; 
+    margin-right: auto;
+
+     text-align: justify;
+    -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+}
+#thumbs a {
+    vertical-align: top;
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+}
+.stretch {
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0
 }
