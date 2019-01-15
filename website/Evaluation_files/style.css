@@ -42,19 +42,19 @@ img#nistlogo{
 	float: right;
 }
 div#header{
-	background-color: #E1E1E1;
+	background-color: rgb(251, 216, 176);
 }
 div#content{
 	padding-left: 10px;
 	padding-right: 10px;
 	color: #4D5460;
 	text-indent: 0em;
-	background-color: #FFFFFF;
+	background-color:  rgb(255, 254, 201);
 }
 #menu{
 	text-align: left;
 	margin: 0;
-	background-color: #406386;
+	background-color: #907418;
 	border-top-width: 1px;
 	border-top-color: #000000;
 	border-top-style: solid;
@@ -88,7 +88,7 @@ div#footer{
 	border-top-color: black;
 	border-top-width: 1px;
 	font-size: 1.1em;
-	background-color: #294A6C;
+	background-color:  rgb(107, 104, 61);
 	padding-bottom: 0em;
 	height: 30px;
 	color: #FFFFFF;
@@ -101,7 +101,7 @@ div#footer{
     margin: 0 auto;
 	text-align:left;
     width: 95%;
-    background-color:  #EEEEEE;
+    background-color:   #907418;
 	border-left-color: #444444;
 	border-left-style: solid;
 	border-left-width: 1px;

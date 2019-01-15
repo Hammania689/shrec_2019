@@ -1,285 +1,360 @@
-<html><head>
-<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
-		<title>SHREC 2018 - 2D Scene Sketch-Based 3D Scene Retrieval</title>
-		<link rel="stylesheet" type="text/css" href="dataset_files/style.css">
-	</head>
-	
-	<body>
-		<div id="wrapper">
-		<div id="header"><img id="usmlogo" src="index_files/USM.png"><img id="msstatelogo" src="index_files/txstprimary.png" align="right"></div>
-			<ul id="menu">
-			<li><a href="index.html">Home</a></li>
-				<li><a href="data.html">DataSet</a></li>
-				<li><a href="updates.html">Updates</a></li>
-				<li><a href="results.html">Results</a></li>
-				<li><a href="Evaluation.html">Evaluation</a></li>
-			</ul>
-			<div id="content">
-			
-<p>
-				
-					</p><p>
-						</p><div class="t1">SHREC 2018 - 2D Scene Sketch-Based 3D Scene Retrieval</div>
-					<p></p><p>
-					
-					<style>
-<!--
- /* Font Definitions */
- @font-face
-	{font-family:"MS Mincho";
-	panose-1:2 2 6 9 4 2 5 8 3 4;}
-@font-face
-	{font-family:SimSun;
-	panose-1:2 1 6 0 3 1 1 1 1 1;}
-@font-face
-	{font-family:"Cambria Math";
-	panose-1:2 4 5 3 5 4 6 3 2 4;}
-@font-face
-	{font-family:Times;
-	panose-1:2 2 6 3 5 4 5 2 3 4;}
-@font-face
-	{font-family:"\@MS Mincho";
-	panose-1:2 2 6 9 4 2 5 8 3 4;}
-@font-face
-	{font-family:"\@SimSun";
-	panose-1:0 0 0 0 0 0 0 0 0 0;}
- /* Style Definitions */
- p.MsoNormal, li.MsoNormal, div.MsoNormal
-	{margin:0in;
-	margin-bottom:.0001pt;
-	text-align:justify;
-	text-indent:11.9pt;
-	line-height:12.0pt;
-	punctuation-wrap:simple;
-	text-autospace:none;
-	font-size:10.0pt;
-	font-family:"Times","serif";}
-p
-	{margin-right:0in;
-	margin-left:0in;
-	text-align:justify;
-	text-indent:11.9pt;
-	line-height:12.0pt;
-	punctuation-wrap:simple;
-	text-autospace:none;
-	font-size:10.0pt;
-	font-family:SimSun;}
-p.equation, li.equation, div.equation
-	{mso-style-name:equation;
-	margin-top:12.0pt;
-	margin-right:0in;
-	margin-bottom:12.0pt;
-	margin-left:0in;
-	text-align:left;
-	text-indent:0in;
-	line-height:12.0pt;
-	punctuation-wrap:simple;
-	text-autospace:none;
-	font-size:10.0pt;
-	font-family:"Times","serif";}
-p.heading3, li.heading3, div.heading3
-	{mso-style-name:heading3;
-	mso-style-link:"heading3 Char";
-	margin-top:24.0pt;
-	margin-right:0in;
-	margin-bottom:12.0pt;
-	margin-left:0in;
-	text-align:left;
-	text-indent:0in;
-	line-height:12.0pt;
-	punctuation-wrap:simple;
-	text-autospace:none;
-	font-size:10.0pt;
-	font-family:"Times","serif";
-	font-weight:bold;}
-span.heading3Char
-	{mso-style-name:"heading3 Char";
-	mso-style-link:heading3;
-	font-family:"Times","serif";
-	font-weight:bold;}
-.MsoPapDefault
-	{margin-bottom:10.0pt;
-	line-height:115%;}
-@page Section1
-	{size:8.5in 11.0in;
-	margin:1.0in 1.0in 1.0in 1.0in;}
-div.Section1
-	{page:Section1;}
--->
-</style>
+<html>
 
+<head>
 
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+	 crossorigin="anonymous">
 
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+	 crossorigin="anonymous">
 
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+	 crossorigin="anonymous"></script>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<title>SHREC 2019 - 2D Scene Sketch-Based 3D Scene Retrieval</title>
 
-</p><div class="Section1">
+	<link rel="stylesheet" type="text/css" href="index_files/style.css">
+</head>
 
-<p class="MsoNormal" style="text-indent:0in"><b><span style="font-size:12.0pt;
-font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Evaluation Methods</span></b></p>
-
-<p class="MsoNormal" style="text-indent:0in"><span style="font-size:12.0pt;
-font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
-
-<p class="MsoNormal" style="text-indent:0in"><span style="font-size:12.0pt;
-font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">The procedure of information retrieval
-evaluation is straightforward. In response to a given set of users' queries, an
-algorithm searches the benchmark database and returns an ordered list of responses
-called the ranked list(s), the evaluation of the algorithm then is transformed
-to the evaluation of the quality of the ranked list(s).&nbsp; Next, we will discuss
-the evaluation method.</span></p>
-
-<p class="MsoNormal"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
-
-<p class="MsoNormal"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Different
-evaluation metrics measure different aspects of shape retrieval behavior. In
-order to make a thorough evaluation of a 2D scene sketch-based 3D scene retrieval algorithm with high
-confidence, we employ a number of common evaluation measures used in the
-information retrieval community.</span></p>
-
-<p class="heading3">Precision- Recall </p>
-
-<p class="MsoNormal"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Precision-
-Recall Graph is the most common metric to evaluate information retrieval
-system. Precision is the ratio of retrieved objects that are relevant to all retrieved
-objects in the ranked list. Recall is the ratio of relevant objects retrieved
-in the ranked list to all relevant objects. </span></p>
-
-<p class="MsoNormal"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Let
-A be the set of all relevant objects, and B be the set of all retrieved object</span><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;"> </span><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">then,</span></p>
-
-<p class="equation"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;"><sub><img src="Evaluation_files/image001.gif" width="113" height="41"></sub>,&nbsp;&nbsp; <sub><img src="Evaluation_files/image002.gif" width="101" height="41"></sub>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(1)</span></p>
-
-<p class="MsoNormal"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Basically,
-Recall evaluates how well a retrieval algorithm finds what we want and precision
-evaluates how well it weeds out what we don't want. There is a tradeoff between
-Recall and Precision, one can increase Recall by retrieving more, while, this
-can decrease Precision.</span></p>
-
-
-
-<p class="heading3">E-Measures</p>
-
-<p class="MsoNormal"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">The
-idea is to combine precision and recall of into a single number to evaluation
-the whole system performance. First we introduce the F-measure,
-which is the weighted harmonic mean of precision and recall. F-measure is
-defined as&nbsp; </span></p>
-
-<p class="equation"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;"><sub><img src="Evaluation_files/image003.gif" width="212" height="44"></sub>&nbsp; ,
-where <sub><img src="Evaluation_files/image004.gif" width="16" height="15"></sub>&nbsp;is
-the
- 
-weight.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
- (2)</span></p>
-
-<p class="MsoNormal"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Let&nbsp;
-<sub><img src="Evaluation_files/image004.gif" width="16" height="15"></sub>&nbsp;&nbsp;be
-1, the weight of precision and recall is same, and we have</span></p>
-
-<p class="MsoNormal"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
-
-<p class="equation"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;"><sub><img src="Evaluation_files/image005.gif" width="175" height="44"></sub>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(3)</span></p>
-
-<p class="MsoNormal"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Then,
-go over all points on the precision-recall curve of each model and compute the
-F-measure, we get the overall evaluation of F for a special algorithm.</span></p>
-
-<p><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">The
-E-Measure is defined as E = 1- F,</span></p>
-
-<p class="equation"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;<sub><img src="Evaluation_files/image006.gif" width="97" height="61"></sub>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-(4)</span></p>
-
-<p class="MsoNormal"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
-
-<p class="MsoNormal"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Note
-that the maximum value is 1.0, and higher values indicate better results. The
-fact is that a user of a search engine is more interested in the first page of
-query results than in later pages. So, here we consider only the first 32
-retrieved objects for every query and calculates the E-Measure over those
-results.</span></p>
-
-<p class="heading3">Cumulated gain -based measurements</p>
-
-<p class="MsoNormal"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Based
-on the idea that the greater the ranked position of a relevant object the less
-valuable it is for the user, because the less likely it is that the user will
-examine the object due to time, effort, and cumulated information from objects
-already seen.</span></p>
-
-<p class="MsoNormal"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">In
-this evaluation, the relevance level of each object is used as a gained value
-measures for its ranked position <i>m,</i> the result and the gain is summed
-progressively from position 1 to n. Thus the ranked object lists (of some
-determined length) are turned to gained value lists by replacing object IDs
-with their relevance values. The binary relevance values 0, 1 are used (1
-denoting relevant, 0 irrelevant) in our benchmark evaluation.&nbsp; Replace the
-object ID with the relevance values, we have for example:</span></p>
-
-<p class="MsoNormal"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
-
-<p class="MsoNormal"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">G'=&lt;
-1, 1, 1, 0, 0, 1, 1,0,1,0 . . . . &gt;</span></p>
-
-<p class="MsoNormal"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">The
-cumulated gain at ranked position <i>i</i> is computed by summing from position
-1 to <i>i</i> when <i>i</i> ranges from 1 to the length of the ranking list.
-Formally, let us denote position i in the gain vector G by G[i]. The cumulated
-gain vector CG is defined recursively as the vector CG where:</span></p>
-
-<p class="MsoNormal"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
-
-<p class="equation"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;"><sub><img src="Evaluation_files/image007.gif" width="273" height="48"></sub>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-(5)</span></p>
-
-<p class="MsoNormal"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
-
-<p class="MsoNormal"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">The
-comparison of matching algorithms is then equal to compare the cumulated gain,
-the greater the rank, the smaller share of the object value is added to the cumulated
-gain. A discounting function is needed which progressively reduces the object
-weight as its rank increases but not too steeply:</span></p>
-
-<p class="equation"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;"><sub><img src="Evaluation_files/image008.gif" width="276" height="51"></sub>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-(6)</span></p>
-
-<p class="MsoNormal"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
-
-<p class="MsoNormal">The actual CG and DCG vectors by a particular matching
-algorithm may also be compared to the theoretically best possible. And this is
-called normalized CG, normalized DCG. The latter vectors are constructed as
-follows. Let there be 5 relevant objects, and 5 irrelevant objects in each
-class, then, at the relevance levels 0 and 1. Then the ideal&nbsp; Gain vector is&nbsp;
-obtain by filling the first vector positions with 1, and&nbsp; the remaining
-positions by the values 0. Then compute CG and DCG as well as the average CG
-and DCG vectors and curves as above. Note that the curves will turn horizontal
-when no more relevant objects (of any level) can be found. The vertical
-distance between an actual DCG/CG curve and the theoretically best possible
-curve shows the effort wasted on less-than-perfect objects due to a particular
-matching algorithm. </p>
-
-<p class="heading3">Nearest Neighbor (NN), First-tier (Tier1) and Second-tier
-(Tier2)</p>
-
-<p class="MsoNormal"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">These
-evaluation measures share the similar idea, that is, to check the ratio of
-models in the query's class that also appear within the top K matches, where K
-can be 1, the size of the query's class, or the double size of the query's
-class. Specifically, for a class with |C| members, K= 1 for Nearest Neighbor, K
-= |C| &#8722; 1 for the first tier, and K = 2 *(|C| &#8722; 1) for the second
-tier. For this evaluation C is always 20. The final score is an average
-over all the objects in database.</span></p>
-
-<p class="MsoNormal">&nbsp;</p>
-
-</div>
-
-					
-				<p>
-				</p><div id="footer">
-				If you have any question, please email to <a href="mailto: juefei.yuan@gmail.com">juefei.yuan@gmail.com</a>
+<body>
+	<div id="wrapper">
+		<div id="header">
+			<div class="d-flex justify-content-center">
+				<img class="img-fluid" id="usmlogo" src="index_files/USM.png" style="margin:auto;">
+				<img class="img-fluid" id="msstatelogo" src="index_files/txstprimary.png">
+				<img class="img-fluid" id="tu_graz" src="index_files/tu_graz.png">
 			</div>
 		</div>
-	
-</div></body></html>
+		<ul id="menu">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="data.html">DataSet</a></li>
+			<li><a href="updates.html">Updates</a></li>
+			<li><a href="results.html">Results</a></li>
+			<li><a href="Evaluation.html">Evaluation</a></li>
+		</ul>
+
+
+		<div id="content">
+
+			<p>
+			</p>
+			<p>
+			</p>
+			<div class="t1">SHREC 2019 - 2D Scene Image-Based 3D Scene Retrieval</div>
+			<p></p>
+			<p>
+
+				<style>
+					< !--
+
+					/* Font Definitions */
+					@font-face {
+						font-family: "MS Mincho";
+						panose-1: 2 2 6 9 4 2 5 8 3 4;
+					}
+
+					@font-face {
+						font-family: SimSun;
+						panose-1: 2 1 6 0 3 1 1 1 1 1;
+					}
+
+					@font-face {
+						font-family: "Cambria Math";
+						panose-1: 2 4 5 3 5 4 6 3 2 4;
+					}
+
+					@font-face {
+						font-family: Times;
+						panose-1: 2 2 6 3 5 4 5 2 3 4;
+					}
+
+					@font-face {
+						font-family: "\@MS Mincho";
+						panose-1: 2 2 6 9 4 2 5 8 3 4;
+					}
+
+					@font-face {
+						font-family: "\@SimSun";
+						panose-1: 0 0 0 0 0 0 0 0 0 0;
+					}
+
+					/* Style Definitions */
+					p.MsoNormal,
+					li.MsoNormal,
+					div.MsoNormal {
+						margin: 0in;
+						margin-bottom: .0001pt;
+						text-align: justify;
+						text-indent: 11.9pt;
+						line-height: 12.0pt;
+						punctuation-wrap: simple;
+						text-autospace: none;
+						font-size: 10.0pt;
+						font-family: "Times", "serif";
+					}
+
+					p {
+						margin-right: 0in;
+						margin-left: 0in;
+						text-align: justify;
+						text-indent: 11.9pt;
+						line-height: 12.0pt;
+						punctuation-wrap: simple;
+						text-autospace: none;
+						font-size: 10.0pt;
+						font-family: SimSun;
+					}
+
+					p.equation,
+					li.equation,
+					div.equation {
+						mso-style-name: equation;
+						margin-top: 12.0pt;
+						margin-right: 0in;
+						margin-bottom: 12.0pt;
+						margin-left: 0in;
+						text-align: left;
+						text-indent: 0in;
+						line-height: 12.0pt;
+						punctuation-wrap: simple;
+						text-autospace: none;
+						font-size: 10.0pt;
+						font-family: "Times", "serif";
+					}
+
+					p.heading3,
+					li.heading3,
+					div.heading3 {
+						mso-style-name: heading3;
+						mso-style-link: "heading3 Char";
+						margin-top: 24.0pt;
+						margin-right: 0in;
+						margin-bottom: 12.0pt;
+						margin-left: 0in;
+						text-align: left;
+						text-indent: 0in;
+						line-height: 12.0pt;
+						punctuation-wrap: simple;
+						text-autospace: none;
+						font-size: 10.0pt;
+						font-family: "Times", "serif";
+						font-weight: bold;
+					}
+
+					span.heading3Char {
+						mso-style-name: "heading3 Char";
+						mso-style-link: heading3;
+						font-family: "Times", "serif";
+						font-weight: bold;
+					}
+
+					.MsoPapDefault {
+						margin-bottom: 10.0pt;
+						line-height: 115%;
+					}
+
+					@page Section1 {
+						size: 8.5in 11.0in;
+						margin: 1.0in 1.0in 1.0in 1.0in;
+					}
+
+					div.Section1 {
+						page: Section1;
+					}
+
+					-->
+				</style>
+
+
+
+
+
+			</p>
+			<div class="Section1">
+
+				<p class="MsoNormal" style="text-indent:0in"><b><span style="font-size:12.0pt;
+font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Evaluation
+							Methods</span></b></p>
+
+				<p class="MsoNormal" style="text-indent:0in"><span style="font-size:12.0pt;
+font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+
+				<p class="MsoNormal" style="text-indent:0in"><span style="font-size:12.0pt;
+font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">The
+						procedure of information retrieval
+						evaluation is straightforward. In response to a given set of users' queries, an
+						algorithm searches the benchmark database and returns an ordered list of responses
+						called the ranked list(s), the evaluation of the algorithm then is transformed
+						to the evaluation of the quality of the ranked list(s).&nbsp; Next, we will discuss
+						the evaluation method.</span></p>
+
+				<p class="MsoNormal"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+
+				<p class="MsoNormal"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Different
+						evaluation metrics measure different aspects of shape retrieval behavior. In
+						order to make a thorough evaluation of a 2D scene sketch-based 3D scene retrieval algorithm with high
+						confidence, we employ a number of common evaluation measures used in the
+						information retrieval community.</span></p>
+
+				<p class="heading3">Precision- Recall </p>
+
+				<p class="MsoNormal"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Precision-
+						Recall Graph is the most common metric to evaluate information retrieval
+						system. Precision is the ratio of retrieved objects that are relevant to all retrieved
+						objects in the ranked list. Recall is the ratio of relevant objects retrieved
+						in the ranked list to all relevant objects. </span></p>
+
+				<p class="MsoNormal"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Let
+						A be the set of all relevant objects, and B be the set of all retrieved object</span><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">
+					</span><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">then,</span></p>
+
+				<p class="equation"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;"><sub><img
+							 src="Evaluation_files/image001.gif" width="113" height="41"></sub>,&nbsp;&nbsp; <sub><img src="Evaluation_files/image002.gif"
+							 width="101" height="41"></sub>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(1)</span></p>
+
+				<p class="MsoNormal"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Basically,
+						Recall evaluates how well a retrieval algorithm finds what we want a;T
+						ndprecision
+						evaluates how well it weeds out what we don't want. There is a tradeoff between
+						Recall and Precision, one can increase Recall by retrieving more, while, this
+						can decrease Precision.</span></p>
+
+
+
+				<p class="heading3">E-Measures</p>
+
+				<p class="MsoNormal"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">The
+						idea is to combine precision and recall of into a single number to evaluation
+						the whole system performance. First we introduce the F-measure,
+						which is the weighted harmonic mean of precision and recall. F-measure is
+						defined as&nbsp; </span></p>
+
+				<p class="equation"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;"><sub><img
+							 src="Evaluation_files/image003.gif" width="212" height="44"></sub>&nbsp; ,
+						where <sub><img src="Evaluation_files/image004.gif" width="16" height="15"></sub>&nbsp;is
+						the
+
+						weight.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						(2)</span></p>
+
+				<p class="MsoNormal"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Let&nbsp;
+						<sub><img src="Evaluation_files/image004.gif" width="16" height="15"></sub>&nbsp;&nbsp;be
+						1, the weight of precision and recall is same, and we have</span></p>
+
+				<p class="MsoNormal"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+
+				<p class="equation"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;"><sub><img
+							 src="Evaluation_files/image005.gif" width="175" height="44"></sub>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(3)</span></p>
+
+				<p class="MsoNormal"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Then,
+						go over all points on the precision-recall curve of each model and compute the
+						F-measure, we get the overall evaluation of F for a special algorithm.</span></p>
+
+				<p><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">The
+						E-Measure is defined as E = 1- F,</span></p>
+
+				<p class="equation"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;<sub><img
+							 src="Evaluation_files/image006.gif" width="97" height="61"></sub>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						(4)</span></p>
+
+				<p class="MsoNormal"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+
+				<p class="MsoNormal"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Note
+						that the maximum value is 1.0, and higher values indicate better results. The
+						fact is that a user of a search engine is more interested in the first page of
+						query results than in later pages. So, here we consider only the first 32
+						retrieved objects for every query and calculates the E-Measure over those
+						results.</span></p>
+
+				<p class="heading3">Cumulated gain -based measurements</p>
+
+				<p class="MsoNormal"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Based
+						on the idea that the greater the ranked position of a relevant object the less
+						valuable it is for the user, because the less likely it is that the user will
+						examine the object due to time, effort, and cumulated information from objects
+						already seen.</span></p>
+
+				<p class="MsoNormal"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">In
+						this evaluation, the relevance level of each object is used as a gained value
+						measures for its ranked position <i>m,</i> the result and the gain is summed
+						progressively from position 1 to n. Thus the ranked object lists (of some
+						determined length) are turned to gained value lists by replacing object IDs
+						with their relevance values. The binary relevance values 0, 1 are used (1
+						denoting relevant, 0 irrelevant) in our benchmark evaluation.&nbsp; Replace the
+						object ID with the relevance values, we have for example:</span></p>
+
+				<p class="MsoNormal"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+
+				<p class="MsoNormal"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">G'=&lt;
+						1, 1, 1, 0, 0, 1, 1,0,1,0 . . . . &gt;</span></p>
+
+				<p class="MsoNormal"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">The
+						cumulated gain at ranked position <i>i</i> is computed by summing from position
+						1 to <i>i</i> when <i>i</i> ranges from 1 to the length of the ranking list.
+						Formally, let us denote position i in the gain vector G by G[i]. The cumulated
+						gain vector CG is defined recursively as the vector CG where:</span></p>
+
+				<p class="MsoNormal"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+
+				<p class="equation"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;"><sub><img
+							 src="Evaluation_files/image007.gif" width="273" height="48"></sub>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						(5)</span></p>
+
+				<p class="MsoNormal"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+
+				<p class="MsoNormal"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">The
+						comparison of matching algorithms is then equal to compare the cumulated gain,
+						the greater the rank, the smaller share of the object value is added to the cumulated
+						gain. A discounting function is needed which progressively reduces the object
+						weight as its rank increases but not too steeply:</span></p>
+
+				<p class="equation"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;"><sub><img
+							 src="Evaluation_files/image008.gif" width="276" height="51"></sub>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						(6)</span></p>
+
+				<p class="MsoNormal"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+
+				<p class="MsoNormal">The actual CG and DCG vectors by a particular matching
+					algorithm may also be compared to the theoretically best possible. And this is
+					called normalized CG, normalized DCG. The latter vectors are constructed as
+					follows. Let there be 5 relevant objects, and 5 irrelevant objects in each
+					class, then, at the relevance levels 0 and 1. Then the ideal&nbsp; Gain vector is&nbsp;
+					obtain by filling the first vector positions with 1, and&nbsp; the remaining
+					positions by the values 0. Then compute CG and DCG as well as the average CG
+					and DCG vectors and curves as above. Note that the curves will turn horizontal
+					when no more relevant objects (of any level) can be found. The vertical
+					distance between an actual DCG/CG curve and the theoretically best possible
+					curve shows the effort wasted on less-than-perfect objects due to a particular
+					matching algorithm. </p>
+
+				<p class="heading3">Nearest Neighbor (NN), First-tier (Tier1) and Second-tier
+					(Tier2)</p>
+
+				<p class="MsoNormal"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">These
+						evaluation measures share the similar idea, that is, to check the ratio of
+						models in the query's class that also appear within the top K matches, where K
+						can be 1, the size of the query's class, or the double size of the query's
+						class. Specifically, for a class with |C| members, K= 1 for Nearest Neighbor, K
+						= |C| &#8722; 1 for the first tier, and K = 2 *(|C| &#8722; 1) for the second
+						tier. For this evaluation C is always 20. The final score is an average
+						over all the objects in database.</span></p>
+
+				<p class="MsoNormal">&nbsp;</p>
+
+			</div>
+
+
+			<p>
+			</p>
+			<div id="footer">If you have any question, please email to <a href="mailto:hameed.abdulrashid@usm.edu">Hameed
+					Abdul</a></div>
+		</div>
+
+	</div>
+</body>
+
+</html>
