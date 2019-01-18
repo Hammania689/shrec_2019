@@ -1,15 +1,3 @@
-##  Organizers: 
- [Hameed Abdul-Rashid](https://www.linkedin.com/in/thehameedabdul/), University of Southern Mississippi, USA
- 
- [Juefei Yuan](https://www.linkedin.com/in/juefei-yuan-494a34176/), University of Southern Mississippi, USA
- 
- [Bo Li](https://sites.google.com/site/libohomepage/homepage), University of Southern Mississippi, USA
- 
- [Yijuan Lu](https://userweb.cs.txstate.edu/~yl12/), Texas State University, USA
-
- [Tobias Schreck](https://www.tugraz.at/institute/cgv/schreck/), Graz University of Technology, Austria
-
-
 ##  Objective:
 In the months following our SHREC 2018 - 2D Scene Image-Based 3D Scene Retrieval
 **(SceneIBR2018)** track [1], we have extended the number of the scene categories from the initial
@@ -121,6 +109,19 @@ March 25 - Reviews done, feedback and notifications given.
 **April 5** - Camera-ready track paper submitted for inclusion in the proceedings.
 
 **May 5-6** - Eurographics Workshop on 3D Object Retrieval 2019, featuring SHREC’2019.
+
+
+##  Organizers: 
+ [Hameed Abdul-Rashid](https://www.linkedin.com/in/thehameedabdul/), University of Southern Mississippi, USA
+ 
+ [Juefei Yuan](https://www.linkedin.com/in/juefei-yuan-494a34176/), University of Southern Mississippi, USA
+ 
+ [Bo Li](https://sites.google.com/site/libohomepage/homepage), University of Southern Mississippi, USA
+ 
+ [Yijuan Lu](https://userweb.cs.txstate.edu/~yl12/), Texas State University, USA
+
+ [Tobias Schreck](https://www.tugraz.at/institute/cgv/schreck/), Graz University of Technology, Austria
+
 
 
 # References:
