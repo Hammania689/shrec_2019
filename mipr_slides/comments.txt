@@ -1,2 +1,4 @@
 2D/3D Datasets
-    "Scene UNerstanding" should be Scene Understanding
+    1. "Scene UNerstanding" --> "Scene Understanding"
+    2. "to capture full extend of 3D places." --> "to capture full extent of 3D scenes."
+    3. 
