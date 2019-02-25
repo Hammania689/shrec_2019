@@ -1,0 +1,18 @@
+SHREC 2019 Extended SceneIBR
+
+1. Eindhoven University of Tecnology in the Netherlands
+    Members: Mike Holenderski, Dmitri Jarnikov, Vlado Menkovski and Perez Rey 
+    PoC: Perez Rey <l.a.perez.rey@tue.nl>
+
+2. Toyohashi University of Technology 
+    Members: Masaki Anono
+    PoC: Masaki Anono <aono@tut.jp>
+
+3. Beijing Technology and Business University
+    Members: Yujuan Wu, Yanping Zheng, Yujia Du, Haoze Yu, Guang Zeng, Yang Wei, Yujia Zhai
+    Tutor: Haisheng Li, Xiaoqun Wu
+    PoC: Haisheng Li <lihsh@th.btbu.edu.cn>
+
+4. Beihang University
+    Members: Zhaoqun Li, Cheng Xu, Biao Leng
+    PoC: Zhaoqun Li <lizhaoqun@buaa.edu.cn>
