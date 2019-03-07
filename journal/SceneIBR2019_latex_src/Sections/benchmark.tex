@@ -2,7 +2,7 @@
 
 \subsection{Overview}
 \begin{document}
-\textbf{Building process.} The first thing for the benchmark design is category selection, for which we have referred to several of the most popular 2D/3D scene datasets, such as Places \cite{zhou2017places} and SUN \cite{SUN}. The criteria for the category selection is popularity. Finally, we selected the most popular 30 scene classes (including the initial 10 classes in \textbf{SceneIBR2018}) from the 88 available category labels in the Places88 dataset [5], via a voting mechanism among three people (two graduate students as voters and a faculty member as the moderator) based on their judgments. We want to mention that the 88 common scenes are already shared by ImageNet \cite{ImageNet}, SUN \cite{SUN}, and Places \cite{zhou2017places}. Then, to collect data (images and models) for the additional 20 classes, we gathered from Flicker and Google Image for images, and downloaded SketchUp 3D scene models (originally, in “.SKP” format, but we provide “.OBJ” format as well after transformation) from 3D Warehouse [8].
+\textbf{Building process.} The first thing for the benchmark design is category selection, for which we have referred to several of the most popular 2D/3D scene datasets, such as Places \cite{zhou2017places} and SUN \cite{SUN}. The criteria for the category selection is popularity. Finally, we selected the most popular 30 scene classes (including the initial 10 classes in \textbf{SceneIBR2018}) from the 88 available category labels in the Places88 dataset [5], via a voting mechanism among three people (two graduate students as voters and a faculty member as the moderator) based on their judgments. We want to mention that the 88 common scenes are already shared by ImageNet \cite{ImageNet}, SUN \cite{SUN}, and Places \cite{zhou2017places}. Then, to collect data (images and models) for the additional 20 classes, we gathered from Flicker and Google Image for images, and downloaded SketchUp 3D scene models (originally, in “.SKP” format, but we provide “.OBJ” format as well after transformation) from 3D Warehouse [8]. 
 
 \textbf{Benchmark details.} Our extended 2D scene image-based 3D scene retrieval benchmark \textbf{SceneIBR2019} expands the initial 10 classes of \textbf{SceneIBR2018} with 20 new classes totaling a more comprehensive dataset of 30 classes. \textbf{SceneIBR2019} contains a complete dataset of 30,000 2D scene images (1,000 per class) and 3,000 3D scene models (100 per class). Examples for each class are demonstrated in both \textbf{Fig. \ref{fig:1}} and \textbf{Fig. \ref{fig:2}}.
 
@@ -31,7 +31,7 @@ In the same manner as the \textbf{SceneIBR2018} track, we randomly pull 700 imag
 	\label{table1}
 \end{table}
 
-\subsection{2D Scene Image Dataset}. The 2D scene image query set is composed of 30,000 scene images (30 classes, each with 1,000 images) that are all from the Flicker and Google Image websites. One example per class is demonstrated in \textbf{Fig. \ref{fig:1}}.
+\subsection{2D Scene Image Dataset} The 2D scene image query set is composed of 30,000 scene images (30 classes, each with 1,000 images) that are all from the Flicker and Google Image websites. One example per class is demonstrated in \textbf{Fig. \ref{fig:1}}.
 
 \begin{figure}[!htp]
 	\centering
@@ -41,7 +41,7 @@ In the same manner as the \textbf{SceneIBR2018} track, we randomly pull 700 imag
 	\label{fig:1}
 \end{figure}
 
-\subsection{3D Scene Dataset}. The 3D scene dataset is built on the selected 3,000 3D scene models downloaded from 3D Warehouse. Each class has 100 3D scene models. One example per class is shown in \textbf{Fig. \ref{fig:2}}.
+\subsection{3D Scene Dataset} The 3D scene dataset is built on the selected 3,000 3D scene models downloaded from 3D Warehouse. Each class has 100 3D scene models. One example per class is shown in \textbf{Fig. \ref{fig:2}}.
 
 \begin{figure}[!htp]
 	\centering
