@@ -1,0 +1,51 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: main.aux
+The style file: eg-alpha-doi.bst
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: shrec2019.bib
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+You've used 7 entries,
+            3585 wiz_defined-function locations,
+            783 strings with 6938 characters,
+and the built_in function-call counts, 3761 in all, are:
+= -- 358
+> -- 187
+< -- 2
++ -- 67
+- -- 66
+* -- 238
+:= -- 571
+add.period$ -- 14
+call.type$ -- 7
+change.case$ -- 53
+chr.to.int$ -- 7
+cite$ -- 7
+duplicate$ -- 115
+empty$ -- 303
+format.name$ -- 73
+if$ -- 889
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 4
+newline$ -- 39
+num.names$ -- 21
+pop$ -- 96
+preamble$ -- 1
+purify$ -- 60
+quote$ -- 0
+skip$ -- 224
+stack$ -- 0
+substring$ -- 138
+swap$ -- 32
+text.length$ -- 2
+text.prefix$ -- 2
+top$ -- 0
+type$ -- 63
+warning$ -- 0
+while$ -- 27
+width$ -- 9
+write$ -- 85
