@@ -1,4 +1,4 @@
-<html>
+﻿<html>
 
 <head>
 
@@ -24,7 +24,9 @@
 		<div id="header">
 			<div class="d-flex justify-content-center">
 				<img class="img-fluid" id="usmlogo" src="index_files/USM.png" style="margin:auto;">
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 				<img class="img-fluid" id="msstatelogo" src="index_files/txstprimary.png">
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 				<img class="img-fluid" id="tu_graz" src="index_files/tu_graz.png">
 			</div>
 		</div>
@@ -49,7 +51,7 @@
 			</p>
 			<div class="t2">Call For Participation</div>
 
-			<h2 id="objective">Objective:</h2>
+			<h2 id="objective"><b>Objective:</b></h2>
 
 			<p>In the months following our SHREC 2018 - 2D Scene Image-Based 3D Scene Retrieval
 				<strong>(SceneIBR2018)</strong> track [1], we have extended the number of the scene categories from the initial
@@ -58,7 +60,7 @@
 				seek to further evaluate the performance of existing and new 2D scene image-based 3D scene
 				retrieval algorithms using this extended and more comprehensive new benchmark</p>
 
-			<h2 id="introduction">Introduction:</h2>
+			<h2 id="introduction"><b>Introduction:</b></h2>
 
 			<p>2D scene image-based 3D scene model retrieval is to retrieve 3D scene models given an input 2D
 				scene image. It has vast related applications, including highly capable autonomous vehicles like
@@ -82,18 +84,19 @@
 				extended
 				benchmark SceneIBR2019, which has 30,000 2D scene images and 3,000 3D scene models. Similarly, all the 2D images
 				and 3D scene models are equally classified into 30 classes. We have kept the same set of 2D scene images and 3D
-				scene models belonging to the initial 10 classes of <strong>SceneIBR2018</strong>. Hence, this track seeks
-				participants who
+				scene models belonging to the initial 10 classes of <strong>SceneIBR2018</strong>. </p>
+				
+				<p>Hence, this track seeks participants who
 				will provide new contributions to further advance 2D scene images-based 3D scene retrieval for evaluation and
 				comparison, especially in terms of scalability to a larger number of scene categories, based on the new benchmark
 				SceneIBR2019. Similarly, we will also provide corresponding evaluation code for computing a set of performance
 				metrics similar to those used in the Query-by-Model retrieval technique.</p>
 
-			<h2 id="benchmark">Benchmark:</h2>
+			<h2 id="benchmark"><b>Benchmark:</b></h2>
 
 			<p><strong>Building process</strong>. The first thing for the benchmark design is category selection, for which we
 				have referred to several of the most popular 2D/3D scene datasets, such as Places [5] and SUN [6].
-				The criteria for the category selection is popularity. Finally, we selected the most popular 30 scene
+				The criteria for the category selection is <i>popularity</i>. Finally, we selected the most popular 30 scene
 				classes (including the initial 10 classes in <strong>SceneIBR2018</strong>) from the 88 available category labels
 				in
 				the Places88 dataset [5], via a voting mechanism among three people (two graduate students as
@@ -101,23 +104,23 @@
 				the 88 common scenes are already shared by ImageNet [7], SUN [6], and Places [5]. Then, to
 				collect data (images and models) for the additional 20 classes, we gathered from Flicker and Google
 				Image for images, and downloaded SketchUp 3D scene models (originally, in “.SKP” format, but
-				we provide “.OBJ” format as well after transformation) from 3D Warehouse [8].
-				Benchmark details. Our extended 2D scene image-based 3D scene retrieval benchmark
-				SceneIBR2019 expands the initial 10 classes of <strong>SceneIBR2018</strong> with 20 new classes totaling a
-				more comprehensive dataset of 30 classes. SceneIBR2019 contains a complete dataset of 30,000
+				we provide “.OBJ” format as well after transformation) from 3D Warehouse [8].</p>
+				<p><b>Benchmark details</b>. Our extended 2D scene image-based 3D scene retrieval benchmark
+				<b>SceneIBR2019</b> expands the initial 10 classes of <strong>SceneIBR2018</strong> with 20 new classes totaling a
+				more comprehensive dataset of 30 classes. <b>SceneIBR2019</b> contains a complete dataset of 30,000
 				2D scene images (1,000 per class) and 3,000 3D scene models (100 per class). Examples for each
-				class are dstrongonstrated in both <strong>Fig. 1</strong> and <strong>Fig. 2</strong>.
-				In the same manner as the <strong>SceneIBR2018</strong> track, we randomly pull 700 images and 70 models out
+				class are dstrongonstrated in both <strong>Fig. 1</strong> and <strong>Fig. 2</strong>.</p>
+				<p>In the same manner as the <strong>SceneIBR2018</strong> track, we randomly pull 700 images and 70 models out
 				from each class for training and the rstrongaining 300 images and 30 models are used for testing, as shown in
 				<strong>Table
 					1</strong>. If a method involves a learning-based approach, results for both the training and
 				testing datasets need to be submitted. Otherwise, retrieval results based on the complete datasets
 				are needed. </p>
 
-			<p><strong>
-					<p style="text-align: center;"> Table 1. Training and testing datasets information of our SceneIBR2019 benchmark.<p
+			<p>
+					<p style="text-align: center;"> <strong>Table 1.</strong> Training and testing datasets information of our <strong>SceneIBR2019</strong> benchmark.<p
 						 style="text-align: center;">
-				</strong></p>
+				</p>
 
 			<p align="center">
 				<img src="https://i.imgur.com/8ov980f.png" height="250px" width="auto">
@@ -131,10 +134,10 @@
 				<img src="https://i.imgur.com/qFMCsJO.png" height="500px" width="auto">
 			</p>
 
-			<p><strong>
-					<p style="text-align: center;"> Fig. 1 Example 2D scene images (one example per class) in our SceneIBR2019
+			<p>
+					<p style="text-align: center;"> <strong>Fig. 1</strong> Example 2D scene images (one example per class) in our <strong>SceneIBR2019</strong>
 						benchmark.</p>
-				</strong></p>
+				</p>
 
 			<p><strong>3D Scene Dataset.</strong> The 3D scene dataset is built on the selected 3,000 3D scene models
 				downloaded from 3D Warehouse. Each class has 100 3D scene models. One example per class is
@@ -144,12 +147,12 @@
 				<img src="https://imgur.com/rdtSti8.png" height="500px" width="auto">
 			</p>
 
-			<p><strong>
-					<p style="text-align: center;">Fig. 2 Example 3D scene models (one example per class, shown in one view) in our
-						SceneIBR2019 benchmark.</p>
-				</strong></p>
+			<p>
+					<p style="text-align: center;"><strong>Fig. 2</strong> Example 3D scene models (one example per class, shown in one view) in our
+						<strong>SceneIBR2019 benchmark.</strong></p>
+				</p>
 
-			<h1 id="evaluationmethod">Evaluation Method:</h1>
+			<h1 id="evaluationmethod"><b>Evaluation Method:</b></h1>
 
 			<p>To have a comprehensive evaluation of the retrieval algorithm, we strongploy seven commonly
 				adopted performance metrics in 3D model retrieval community: Precision-Recall (PR) diagram,
@@ -157,24 +160,57 @@
 				Gain (DCG) and Average Precision (AP) [9]. We have developed the related code to compute these
 				metrics and will provide thstrong to participants.</p>
 
-			<h1 id="theproceduralaspects">The Procedural Aspects:</h1>
+			<h1 id="theproceduralaspects"><b>The Procedural Aspects:</b></h1>
 
 			<p>The complete dataset will be made available on the <strong>25<sup>th</sup> of January</strong> and the results
 				will be
 				due in
-				six weeks after that. Every participant is expected to perform the queries and send us their retrieval
+				<b>six weeks</b> after that. Every participant is expected to perform the queries and send us their retrieval
 				results. We will then do the performance assessment. Participants and organizers will collaborate
 				to write a joint SHREC track competition report to detail the results and evaluations. Results of the
 				track will be presented by one of our organizers during the 2019 Eurographics 3DOR workshop in
 				Genova, Italy.</p>
+				
+<div class="t2">Procedure</div>
+					<br>The following list is a step-by-step description of the activities:
+					<ul>
+						<li>
+							The participants must register by sending a message to <a href="mailto:hameed.abdulrashid@usm.edu">Hameed Abdul-Rashid</a>. 
+							Early registration is encouraged, so that we get an impression of the number of participants at an early stage.
+						</li>
+						<li>
+							<b>The database will be made available via this website.  <a href="data.html">Dataset</a></b>.
+						</li>
+						<li>
+						Participants will submit the rank lists on the test (for learning-based methods), or on the complete (for non-learning based approaches) datasets. Up to 5 matrices, either for the training or testing datasets, per group may be submitted, resulting from different runs. Each run may be a different algorithm, or a different parameter setting. More information on the dissimilarity matrix file format.<b> <a href="rank_list_format.html">  More information on the rank list file format.</a> </b>
+						</li>
+<li>
+Participants write a one-page description of their method 
+with at most two figures and submit it at the same time when they submit their running results.
+						</li>
+						<li>
+							The evaluations will be done automatically.
+						</li>
+						<li>
+							The organization will release the evaluation scores of all the runs.
+						</li>
+						<li>
+							The track results are combined into a joint paper, and then published in 
+the proceedings of the Eurographics Workshop on 3D Object Retrieval after reviewed by the 3DOR and SHREC organizers.
+						</li>
+						<li>
+							The description of the track and its results are presented at 
+the 2018 Eurographics Workshop on 3D Object Retrieval (May 5-6, 2019).
+						</li>
+					</ul>
 
-			<p>Preliminary Timeline:
-				January 23 - Call for participation.</p>
+			<p><b>Preliminary Timeline</b>:</p>
+				<p>February 1 - Call for participation.</p>
 
-			<p><strong>January 25</strong> -Distribution of the database. Participants can start the retrieval or train their
+			<p><strong>February 1</strong> - Distribution of the database. Participants can start the retrieval or train their
 				algorithms.</p>
 
-			<p><strong>February 8</strong> - Please register before this date.</p>
+			<p><strong>February 18</strong> - Please register before this date.</p>
 
 			<p><strong>March 8</strong> - Submission of the results on the test (for learning-based methods) or the complete
 				(for
@@ -193,7 +229,7 @@
 			<p><strong>May 5-6</strong> - Eurographics Workshop on 3D Object Retrieval 2019, featuring SHREC’2019.</p>
 
 
-			<h2 id="organizers">Organizers:</h2>
+			<h2 id="organizers"><b>Organizers:</b></h2>
 
 			<p><a href="https://www.linkedin.com/in/thehameedabdul/">Hameed Abdul-Rashid</a>, University of SouthernMississippi,
 				USA
@@ -205,20 +241,20 @@
 				<br> <a href="https://www.tugraz.at/institute/cgv/schreck/">Tobias Schreck</a>, Graz University of Technology,
 				Austria</p>
 
-			<h1 id="references">References:</h1>
+			<h1 id="references"><b>References:</b></h1>
 
 			<p>[1] Hameed Abdul-Rashid, Juefei Yuan, Bo Li, Yijuan Lu, Song Bai, Xiang Bai, Ngoc-Minh Bui, Minh N.
 				Do, Trong-Le Do, Anh Duc Duong, Xinwei He, Tu-Khiem Le, Wenhui Li, Anan Liu, Xiaolong Liu, KhacTuan Nguyen,
 				Vinh-Tiep Nguyen, Weizhi Nie, Van-Tu Ninh, Yuting Su, Vinh Ton-That, Minh-Triet
-				Tran, Shu Xiang, Heyu Zhou, Yang Zhou, Zhichao Zhou. <a href="http://orca.st.usm.edu/~bli/SceneIBR2018/">SHREC’18
+				Tran, Shu Xiang, Heyu Zhou, Yang Zhou, Zhichao Zhou. <a href="http://orca.st.usm.edu/~bli/SceneIBR2018/"><strong>SHREC’18
 					Track: 2D Image-Based 3D
-					Scene Retrieval</a>. 3DOR 2018: 37-44.</p>
+					Scene Retrieval</strong></a>. <i>3DOR 2018:</i> 37-44.</p>
 
-			<p>[2] Juefei Yuan, Hameed Abdul-Rashid, Bo Li, Yijuan Lu. <a href="https://drive.google.com/open?id=1-EvRxQf9zS805vqBM413bjCDTZonb-E3">Sketch/Image-Based
+			<p>[2] Juefei Yuan, Hameed Abdul-Rashid, Bo Li, Yijuan Lu. <a href="Sketch Image-Based 3D Scene Retrieval Benchmark, Algorithm, Evaluation_camera_ready.pdf"><b>Sketch/Image-Based
 					3D Scene Retrieval:
-					Benchmark, Algorithm, Evaluation</a>. The IEEE 2nd International Conference on Multimedia Information
-				Processing and Retrieval (MIPR’19). March 28-30, San Jose, CA, USA (Invited Paper), January 2019,
-				Accepted (PDF).</p>
+					Benchmark, Algorithm, Evaluation</b></a>. The IEEE 2nd International Conference on Multimedia Information
+				Processing and Retrieval <i>(MIPR’19)</i>. March 28-30, San Jose, CA, USA (Invited Paper), January 2019,
+				Accepted (<a href="Sketch Image-Based 3D Scene Retrieval Benchmark, Algorithm, Evaluation_camera_ready.pdf">PDF</a>, <a href="Scene_SBR_IBR_MIPR19_Slides.pdf">Slides</a>).</p>
 
 			<p>[3] Renault. <strong>Renault SYMBOIZ Concept</strong>.
 				http://www.renault.co.uk/vehicles/concept-cars/symbiozconcept.html.</p>
@@ -227,24 +263,23 @@
 				http://www.youtube.com/watch?v=vlIJfV1u2hM\&amp;feature=youtu.be.</p>
 
 			<p>[5] B. Zhou, A. Lapedriza, A. Khosla, A. Oliva, and A. Torralba. <strong>Places: A 10 million image database for
-					scene recognition</strong>. IEEE Trans. Pattern Anal. Mach. Intell., 40(6):1452–1464, 2018.</p>
+					scene recognition</strong>. <i>IEEE Trans. Pattern Anal. Mach. Intell.,</i> 40(6):1452–1464, 2018.</p>
 
 			<p>[6] J. Xiao, K. A. Ehinger, J. Hays, A. Torralba, and A. Oliva. <strong>SUN database: Large-scale scene
-					recognition from abbey to zoo</strong>. In CVPR, pages 3485-3492. IEEE Computer Society, 2010.</p>
+					recognition from abbey to zoo</strong>. In <i>CVPR</i>, pages 3485-3492. IEEE Computer Society, 2010.</p>
 
 			<p>[7] J. Deng, W. Dong, R. Socher, L. Li, K. Li, and F. Li. <strong>ImageNet: A large-scale hierarchical image
-					database</strong>. CVPR 2009: 248-255.</p>
+					database</strong>. <i>CVPR 2009:</i> 248-255.</p>
 
-			<p>[8] 3D Warehouse. https://3dwarehouse.sketchup.com/?hl=en.</p>
+			<p>[8] <b>3D Warehouse</b>. https://3dwarehouse.sketchup.com/?hl=en.</p>
 
 			<p>[9] Bo Li, Yijuan Lu, Chunyuan Li, Afzal Godil, Tobias Schreck, Masaki Aono, Martin Burtscher, Qiang
 				Chen, Nihad Karim Chowdhury, Bin Fang, Hongbo Fu, Takahiko Furuya, Haisheng Li, Jianzhuang Liu,
 				Henry Johan, Ryuichi Kosaka, Hitoshi Koyanagi, Ryutarou Ohbuchi, Atsushi Tatsuma, Yajuan Wan,
 				Chaoli Zhang, Changqing Zou. <strong>A comparison of 3D shape retrieval methods based on a large-scale benchmark
-					supporting multimodal queries</strong>. Computer Vision and Image Understanding, 131:127, 2015. </p>
+					supporting multimodal queries</strong>. <i>Computer Vision and Image Understanding,</i> 131:127, 2015. </p>
 		</div>
-		<div id="footer">If you have any question, please email to <a href="mailto:hameed.abdulrashid@usm.edu">Hameed
-				Abdul</a></div>
+		<div id="footer">If you have any question, please email to <a href="mailto:hameed.abdulrashid@usm.edu">Hameed Abdul-Rashid</a></div>
 
 	</div>
 </body>
