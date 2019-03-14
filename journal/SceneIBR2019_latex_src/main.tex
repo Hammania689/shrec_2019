@@ -39,5 +39,21 @@
 \usepackage{subfiles}
 \usepackage[utf8]{inputenc}
 \usepackage[figurename=Fig.]{caption}
+\usepackage{multirow}
+\usepackage{hyperref}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage[hang,flushmargin]{footmisc}
+\usepackage[normalem]{ulem}
+
+\DefineFNsymbolsTM{myfnsymbols}{% def. from footmisc.sty "bringhurst" symbols
+	\textdagger    \dagger
+	\textdaggerdbl \ddagger
+	\textasteriskcentered *
+	\textsection   \mathsection
+	\textbardbl    \|%
+	\textparagraph \mathparagraph
+}%
+\setfnsymbol{myfnsymbols}
 \graphicspath{{./Images/}}
 \input{main-body.inc}

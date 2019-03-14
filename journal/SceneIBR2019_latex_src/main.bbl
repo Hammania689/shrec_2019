@@ -1,5 +1,5 @@
 \newcommand{\etalchar}[1]{$^{#1}$}
-\begin{thebibliography}{\uppercase{ARYLL18}}
+\begin{thebibliography}{\uppercase{SMKLM15}}
 
 \bibitem[ARYLL18]{SHREC18-SceneIBR-Track}
 \textsc{Abdul-Rashid H., Yuan J., Li B., Lu Y.}:
@@ -11,6 +11,36 @@
 \textsc{Deng J., et~al}:
 \newblock {ImageNet}: A large-scale hierarchical image database.
 \newblock In \emph{CVPR} (2009), pp.~248--255.
+
+\bibitem[Fli18]{Flickr}
+\textsc{Flickr}:
+\newblock Flickr.
+\newblock \url{https://www.flickr.com/}, 2018.
+
+\bibitem[Goo18a]{3DWarehouse}
+\textsc{Google}:
+\newblock 3{D} {W}arehouse.
+\newblock \url{http://3dwarehouse.sketchup.com/?hl=en}, 2018.
+
+\bibitem[Goo18b]{GoogleImages}
+\textsc{Google}:
+\newblock Google images.
+\newblock \url{https://www.google.com/imghp?hl=EN}, 2018.
+
+\bibitem[Kal17]{gkallia2017keras_places365}
+\textsc{Kalliatakis G.}:
+\newblock Keras-vgg16-places365.
+\newblock \url{https://github.com/GKalliatakis/Keras-VGG16-places365}, 2017.
+
+\bibitem[KRMW14]{Kingma2014a}
+\textsc{Kingma D.~P., Rezende D.~J., Mohamed S., Welling M.}:
+\newblock {Semi-Supervised Learning with Deep Generative Models}.
+\newblock 1--9.
+
+\bibitem[KW13]{kingma2013auto}
+\textsc{Kingma D.~P., Welling M.}:
+\newblock Auto-encoding variational bayes.
+\newblock \emph{arXiv preprint arXiv:1312.6114} (2013).
 
 \bibitem[LLL{\etalchar{*}}15]{CIVU}
 \textsc{Li B., Lu Y., Li C., Godil A., Schreck T., Aono M., Burtscher M., Chen
@@ -25,6 +55,14 @@
 \newblock
   \url{http://www.renault.co.uk/vehicles/concept-cars/symbioz-concept.html}.
 
+\bibitem[SMKLM15]{Su2015}
+\textsc{Su H., Maji S., Kalogerakis E., Learned-Miller E.}:
+\newblock {Multi-view Convolutional Neural Networks for 3D Shape Recognition}.
+\newblock In \emph{2015 IEEE International Conference on Computer Vision
+  (ICCV)} (12 2015), vol.~2015 Inter, IEEE, pp.~945--953.
+\newblock \href {https://doi.org/10.1109/ICCV.2015.114}
+  {\path{doi:10.1109/ICCV.2015.114}}.
+
 \bibitem[Tip]{Youtube}
 \textsc{Tips L.~T.}:
 \newblock Driving a multi-million dollar autonomous car.
@@ -35,9 +73,29 @@
 \newblock {SUN} database: Large-scale scene recognition from abbey to zoo.
 \newblock In \emph{{CVPR}} (2010), {IEEE} Computer Society, pp.~3485--3492.
 
+\bibitem[Yea19]{MIPR}
+\textsc{Yuan J., et~al}:
+\newblock Sketch/image-based 3d scene retrieval: Benchmark, algorithm,
+  evaluation.
+\newblock In \emph{{MIPR}} (2019), IEEE.
+
+\bibitem[YLL16]{3DICPR}
+\textsc{Ye Y., Li B., Lu Y.}:
+\newblock 3d sketch-based 3d model retrieval with convolutional neural network.
+\newblock In \emph{2016 23rd International Conference on Pattern Recognition
+  (ICPR)} (2016), IEEE, pp.~2936--2941.
+
 \bibitem[ZLK{\etalchar{*}}17]{zhou2017places}
 \textsc{Zhou B., Lapedriza A., Khosla A., Oliva A., Torralba A.}:
 \newblock Places: a 10 million image database for scene recognition.
 \newblock \emph{IEEE Trans. on PAMI} (2017).
+
+\bibitem[ZLK{\etalchar{*}}18]{Places88}
+\textsc{Zhou B., Lapedriza A., Khosla A., Oliva A., Torralba A.}:
+\newblock {Places: A 10 Million Image Database for Scene Recognition}.
+\newblock \emph{IEEE Transactions on Pattern Analysis and Machine Intelligence
+  40}, 6 (2018), 1452--1464.
+\newblock \href {https://doi.org/10.1109/TPAMI.2017.2723009}
+  {\path{doi:10.1109/TPAMI.2017.2723009}}.
 
 \end{thebibliography}

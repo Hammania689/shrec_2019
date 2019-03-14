@@ -1,0 +1,17 @@
+\documentclass[../main.tex]{subfiles}
+
+\begin{document}
+	
+	To classify an image into one of the 30 scene categories in this track, they apply their method (used in SHREC 2018) to extract scene attributes using MIT Place API. They train a simple network with the extracted features from Place API and use this network to classify an input image with 30 labels.
+	
+	\subsection{3D scene classification with multiple screenshots, domain adaptation, and concept augmentation}
+	
+	In this track, they perform two-step process for 3D scene classification with multiple screenshots. 
+	
+	In the first step, they train multiple classification models and use the voting scheme to ensemble the classification result. They apply their proposal of domain adaptation (used in SHREC 2018) to classify a 2D screenshots of a 3D scene. They also try to train simple networks (with one to two hidden layers) to classify a 2D screenshot using features from ResNet50. 
+	
+	Because of the wide variation in the design of a 3D scene, it is not enough to classify the category of a scene simply by extracting the feature (from ResNet50) or from the features of scene attributes (from MIT Place, even after domain adaptation). This motivates their proposal to employ object/entity detectors to identify entities related to certain concepts existing a screen shot. 
+	
+	In version 2 of the proposed method, they first collect a dataset of natural images from Internet corresponding to concepts that are related to the 30 scene categories. For example, they use the query terms such as  "cactus", "camel", etc to serve the scene classification for "desert". They train their set of object detectors from this dataset of  natural images with Faster RCNN. Then they apply their detectors to identify  entities that might appear in a scene, such as "book" (in a library), "umbrella" (in a beach), etc. By this way, they further refine their retrieval results.
+	
+\end{document}
