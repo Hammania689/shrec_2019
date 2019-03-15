@@ -3,8 +3,8 @@
 \backcite {Renault}{{1}{1}{section.1}}
 \backcite {Youtube}{{1}{1}{section.1}}
 \backcite {SHREC18-SceneIBR-Track}{{1}{1}{section.1}}
+\backcite {MIPR}{{1}{1}{section.1}}
 \backcite {zhou2017places}{{2}{2.1}{subsection.2.1}}
-\backcite {SUN}{{2}{2.1}{subsection.2.1}}
 \backcite {Places88}{{2}{2.1}{subsection.2.1}}
 \backcite {ImageNet}{{2}{2.1}{subsection.2.1}}
 \backcite {SUN}{{2}{2.1}{subsection.2.1}}
@@ -13,11 +13,11 @@
 \backcite {GoogleImages}{{2}{2.1}{subsection.2.1}}
 \backcite {3DWarehouse}{{2}{2.1}{subsection.2.1}}
 \backcite {CIVU}{{2}{2.4}{subsection.2.4}}
-\backcite {Kingma2014a}{{3}{4.1}{subsection.4.1}}
-\backcite {Su2015}{{3}{4.2}{subsection.4.2}}
-\backcite {Kingma2014a}{{3}{4.3}{subsection.4.3}}
-\backcite {Kingma2014a, kingma2013auto}{{3}{4.3}{subsection.4.3}}
+\backcite {Kingma2014a}{{3}{4.1.1}{subsubsection.4.1.1}}
+\backcite {Su2015}{{3}{4.1.2}{subsubsection.4.1.2}}
+\backcite {Kingma2014a}{{3}{4.1.3}{subsubsection.4.1.3}}
+\backcite {Kingma2014a, kingma2013auto}{{3}{4.1.3}{subsubsection.4.1.3}}
 \backcite {gkallia2017keras_places365}{{4}{2.}{Item.2}}
 \backcite {Places88}{{4}{2.}{Item.2}}
-\backcite {3DICPR}{{4}{4.6.2}{subsubsection.4.6.2}}
-\backcite {zhou2017places}{{4}{4.6.3}{subsubsection.4.6.3}}
+\backcite {3DICPR}{{4}{4.2.2}{subsubsection.4.2.2}}
+\backcite {zhou2017places}{{4}{4.2.3}{subsubsection.4.2.3}}

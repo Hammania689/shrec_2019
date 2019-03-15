@@ -1,7 +1,6 @@
 % ---------------------------------------------------------------------
 
 \title[SHREC'19 Track: Extended 2D Scene Image-Based 3D Scene Retrieval]{SHREC'19 Track: Extended 2D Scene Image-Based\\ 3D Scene Retrieval}
-
 \author[H. Abdul-Rashid et al]
 {
 \begin{minipage}[b]{0.95\linewidth} % A minipage that covers half the page
@@ -11,27 +10,29 @@ Juefei Yuan\footnotemark[1]$^{1}$,
 Bo Li\footnotemark\thanks{\hspace{.1cm}Corresponding author}$^{1}$,
 Yijuan Lu\footnotemark[1]$^{2}$,
 Tobias Schreck\footnotemark[1]$^{3}$,
-Perez Rey\thanks{\hspace{.1cm}Track participants.}$^{4}$,
-Mike Holenderski\footnotemark[4]$^{4}$,
-Dmitri Jarnikov\footnotemark[4]$^{4}$,
-Vlado Menkovski\footnotemark[4]$^{4}$,
-Ngoc-Minh Bui\footnotemark[4]$^{5,6}$,
-Trong-Le Do\footnotemark[4]$^{5,6}$,
-Khac-Tuan Nguyen\footnotemark[4]$^{5,6}$,
-Tu V. Ninh\footnotemark[4]$^{5}$,
-Khiem T. Le\footnotemark[4]$^{5}$,
-Thanh-An Nguyen\footnotemark[4]$^{6}$,
-Minh-Triet Tran\footnotemark[4]$^{5,6}$,
-Vinh-Tiep Nguyen\footnotemark[4]$^{7}$,
+Tianyang Wang\footnotemark[1]$^{4}$,
+Ngoc-Minh Bui\footnotemark[4]$^{6,7}$,
+Trong-Le Do\footnotemark[4]$^{6,7}$,
+Mike Holenderski\footnotemark[4]$^{5}$,
+Dmitri Jarnikov\footnotemark[4]$^{5}$,
+Khiem T. Le\footnotemark[4]$^{6}$,
+Vlado Menkovski\footnotemark[4]$^{5}$,
+Khac-Tuan Nguyen\footnotemark[4]$^{6,7}$,
+Thanh-An Nguyen\footnotemark[4]$^{7}$,
+Vinh-Tiep Nguyen\footnotemark[4]$^{8}$,
+Tu V. Ninh\footnotemark[4]$^{6}$,
+Perez Rey\thanks{\hspace{.1cm}Track participants.}$^{5}$,
+Minh-Triet Tran\footnotemark[4]$^{6,7}$
 \end{minipage}
 \\
 $^{1}$ School of Computing, University of Southern Mississippi, USA\\
 $^{2}$ Department of Computer Science, Texas State University, USA\\
-$^{3}$ Graz University of Technology, Austria\\
-$^{4}$ \small Eindhoven University of Technology, Netherlands\\
-$^{5}$ \small Faculty of Information Technology, University of Science, Vietnam National University - Ho Chi Minh City, Vietnam\\
-$^{6}$ \small Software Engineering Lab, University of Science, Vietnam National University - Ho Chi Minh City Vietnam\\
-$^{7}$ \small University of Information Technology, University of Science, Vietnam National University - Ho Chi Minh City, Vietnam\\
+$^{3}$ Institue of Computer Graphics and knowledge visualization, Graz University of Technology, Austria\\
+$^{4}$ Department of Computer Science and Information Technology, Austin Peay State University, USA\\
+$^{5}$ \small Eindhoven University of Technology, Netherlands\\
+$^{6}$ \small Faculty of Information Technology, Vietnam National University - Ho Chi Minh City, Vietnam\\
+$^{7}$ \small Software Engineering Lab, Vietnam National University - Ho Chi Minh City Vietnam\\
+$^{8}$ \small University of Information Technology, Vietnam National University - Ho Chi Minh City, Vietnam\\
 }
 %-------------------------------------------------------------------------
 \begin{document}
@@ -55,16 +56,16 @@ $^{7}$ \small University of Information Technology, University of Science, Vietn
 \subfile{Sections/participants}
 
 %-------------------------------------------------------------------------
-
-\section{Conditional Variational Autoencoders for Image Based Scene Retrieval}
+\section{Methods}
+\subsection{Conditional Variational Autoencoders for Image Based Scene Retrieval}
 \label{sec:perez}
 \subfile{Sections/perez}
 
-\subsection{VMV: View and Majority Vote based 3D scene retrieval algorithm}
+\subsection{VMV-VGG: View and Majority Vote based 3D scene retrieval algorithm}
 \label{sec:yuan}
 \subfile{Sections/yuan}
 
-\subsection{HCMUS}
+\subsection{RNIRAP}
 \label{sec:triet}
 \subfile{Sections/triet}
 
@@ -80,9 +81,8 @@ $^{7}$ \small University of Information Technology, University of Science, Vietn
 %-------------------------------------------------------------------------
 \section{Acknowledgements}
 \subfile{Sections/acknowlegde}
-
+\newpage
 %-------------------------------------------------------------------------
-
 %\bibliographystyle{eg-alpha}
 \bibliographystyle{eg-alpha-doi}
 \bibliography{shrec2019}

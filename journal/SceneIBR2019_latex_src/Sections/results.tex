@@ -2,19 +2,19 @@
 
 \begin{document}
 
-
-A comparative evaluation of the is performed on all methods. Retrieval performance measurements are based on the seven metrics mentioned in Section~\ref{sec:Evaluation}: PR, NN, FT, ST, E, DCG and AP. \textbf{Fig.}~\ref{Results} and \textbf{Table}~\ref{tab:IBR19} compare the four learning-based participating methods on the testing dataset.
-
 \begin{figure}[!htp]
 	\centering
 	{
+%			\includegraphics[width=1\textwidth,height=0.5\textheight]{result.png}
 		\includegraphics[width=1.0\linewidth]{result.png}
 	}
-	\caption{Precision-Recall diagram performance comparisons on testing dataset of of our \textbf{SceneIBR19} benchmark for the four learning-based participating methods.}
+	\caption{ Precision-Recall diagram performance comparisons on testing dataset of of our \textbf{SceneIBR19} benchmark for the four learning-based participating methods.}
 	\label{Results}
 \end{figure}
 
-\begin{table*}[htb]
+
+
+\begin{table*}[!htb]
 	\centering
 	\caption{Performance metrics comparison on the SHREC'19 SceneIBR Track Benchmark.}
 	\label{tab:IBR19}
@@ -24,24 +24,22 @@ A comparative evaluation of the is performed on all methods. Retrieval performan
 		\hline
 		\textbf{\normalsize{Complete benchmark}}\\
 		\hline
-		Rey &CVAE-VGG &0.071    &0.054   &0.099   &0.055   &0.405 &0.0535\\
-		\hline
-		\multirow{4}{*}{Rey}  &CVAE1  &0.235    &0.187   &0.295   &0.189   &0.532 &0.1717\\
+		\multirow{2}{*}{Triet} &RNIRAP1 &0.845    &0.620   &0.674   &0.618   &0.791  &  0.5436\\	
+		\cline{2-8}
+		&RNIRAP2 &\textbf{0.865}    &\textbf{0.749}   &\textbf{0.792}   &\textbf{0.745}   &\textbf{0.863} &\textbf{0.7221}\\	
+		\hline  		 									
+		\multirow{5}{*}{Rey} &CVAE-VGG &0.071    &0.054   &0.099   &0.055   &0.405 &0.0535\\ \cline{2-8}&CVAE1  &0.235    &0.187   &0.295   &0.189   &0.532 &0.1717\\
 		\cline{2-8}
 		&CVAE2 &0.272    &0.217   &0.331   &0.219   &0.560  &0.2013\\
 		\cline{2-8}
 		&CVAE3 &0.199    &0.154   &0.251   &0.157   &0.507 &0.1445\\
 		\cline{2-8}
 		&CVAE4 &0.211    &0.149   &0.246   &0.152   &0.505  &0.1424\\
-		\hline
-		\multirow{2}{*}{Triet} 
-		&HCMUS1 &0.845    &0.620   &0.674   &0.618   &0.791  &  0.5436\\	
-		\cline{2-8}
-		&HCMUS2 &\textbf{0.865}    &\textbf{0.749}   &\textbf{0.792}   &\textbf{0.745}   &\textbf{0.863} &\textbf{0.7221}\\	
-		\hline  		 									
+		\hline							
 		Yuan &VMV-VGG &0.122	 &0.458	 &0.573	 &0.452	 &0.644 &0.3899\\			
 		\hline		
 	\end{tabular}
 \end{table*}
 
+A comparative evaluation of the is performed on all methods. The measured retrieval performance is based on the seven metrics mentioned in Section~\ref{sec:Evaluation}: PR, NN, FT, ST, E, DCG and AP. \textbf{Fig.}~\ref{Results} and \textbf{Table}~\ref{tab:IBR19} compare the four learning-based participating methods on the testing dataset.
 \end{document}
