@@ -1,17 +1,42 @@
 \documentclass[../main.tex]{subfiles}
 
 \begin{document}
+	\subsubsection{2D Scene Image classification with scene's deep features}
 	
-	To classify an image into one of the 30 scene categories in this track, they apply their method (used in SHREC 2018) to extract scene attributes using MIT Place API. They train a simple network with the extracted features from Place API and use this network to classify an input image with 30 labels.
+	To classify an image into one of the 30 scene categories in this track, they apply their method (used in \textbf{SceneIBR2018}) to extract scene's deep feature using MIT Places API \cite{zhou2017places}. They train a simple network with the extracted features from Place API and use this network to classify an input image with 30 labels.
+	
+	In their first step, an input image is represented as a feature vector in Place API domain vector space using a pre-trained ResNet-50 \cite{resnet} model on the MIT Places API scene recognition network. Instead of using 102 scene attributes as in their previous \textbf{SceneIBR2018}, they use a 512-dimensional deep feature representation which is generated before being processed through dense layers for classification.
+	
+	Next, they utilize the extracted features to train a neural network classification with 30 labels. Differing from their \textbf{SceneIBR2018} method, the input feature is processed through two dense hidden layers with dimension of 1024 for each layer instead of a small network of $100 \le K \le 200$ dimension as stated in their previous method. The visualization of their network configuration is demonstrated in \textbf{Fig.} \ref{fig:2DSceneClassificationNetwork}. The network is trained on a server with 1 $\times$ NVIDIA Tesla K80 GPU. An Adam optimizer with learning rate at 0.0001 being hyperparameters. Three models were trained using this network configuration. The final label prediction of an image is outputted by using majority voting scheme from these three models.
+	
+	\begin{figure}[h]
+		\includegraphics[width=8cm]{2DSceneClassification.png}
+		\centering
+		\caption{2D scene classification with scene's deep feature.}
+		\label{fig:2DSceneClassificationNetwork}
+	\end{figure}
+	
 	
 	\subsubsection{3D scene classification with multiple screenshots, domain adaptation, and concept augmentation}
+	They suggest two steps for 3D scene classification as showed in \textbf{Fig.} \ref{fig:3D overview}. In the first step, they use a mixture of multiple classification models.
 	
-	In this track, they perform two-step process for 3D scene classification with multiple screenshots. 
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.9\columnwidth]{two-step-process.pdf}
+		\caption{Two-step process of the 3d scene classification method.}
+		\label{fig:3D overview}
+	\end{figure}
 	
-	In the first step, they train multiple classification models and use the voting scheme to ensemble the classification result. They apply their proposal of domain adaptation (used in SHREC 2018) to classify a 2D screenshots of a 3D scene. They also try to train simple networks (with one to two hidden layers) to classify a 2D screenshot using features from ResNet50. 
+	First, they employ ResNet-50\cite{resnet} model pretrained on ImageNet\cite{ImageNet} and Places365\cite{zhou2017places} dataset to extract a feature vector for each sampled scene view. Then they implement different neural network architectures to train for the classification task. In order to find the best architecture, they try several configurations of fully-connected neural network, with the number of hidden layers ranging from one or two while the number of neurons in each layer varies between 128, 192, 256 and 320. The architecture that achieves the best accuracy is chosen for the voting scheme.
 	
-	Because of the wide variation in the design of a 3D scene, it is not enough to classify the category of a scene simply by extracting the feature (from ResNet50) or from the features of scene attributes (from MIT Place, even after domain adaptation). This motivates their proposal to employ object/entity detectors to identify entities related to certain concepts existing a screen shot. 
+	To utilize the scene attribute information more efficiently, they extract 365-dimensional scene-attribute features from Places365 and directly concatenate with features extracted by ResNet-50. Some of the scene-attribute features are useful and informative for the classification task, such as the attribute of "outdoor" and "swimming" can relate to the "beach" category. However, concatenating the two feature vectors may cause the model to overfit data and slow down the training process. Therefore, an additional step of normalizing the features and reducing the dimension to 512-dimensional using Principal Component Analysis(PCA) is applied. Finally, they continue to classify on this feature set.
 	
-	In version 2 of the proposed method, they first collect a dataset of natural images from Internet corresponding to concepts that are related to the 30 scene categories. For example, they use the query terms such as  "cactus", "camel", etc to serve the scene classification for "desert". They train their set of object detectors from this dataset of  natural images with Faster RCNN. Then they apply their detectors to identify  entities that might appear in a scene, such as "book" (in a library), "umbrella" (in a beach), etc. By this way, they further refine their retrieval results.
+	They also collect images from 30 categories of Places365 dataset and from the Internet, each category contains 1000 images. Then they trained a model using this customized dataset and get the weights to initialize the weights of a model when training on the sampled views dataset.
 	
+	
+	Following their \textbf{SceneIBR2018} method, they apply the adversarial adaptive method to minimize the distance between the representation of the 3D model and the representation of the corresponding image. Their method contains two main components, the Adversarial Adaptation component, and the Place Classification component. In the adversarial adaptation component, a source representation model $M_s$ will process a natural image into a feature vector and a target representation model $M_t$ will process a screenshot of a 3D model into a second feature vector. The two encoded vectors are then fed into a discriminator to distinguish the two domain. They train the target representation $M_t$ to fool the discriminator via a basic adversarial loss. In the place classification component, they train a classifier with input is the learned representation of the 3D model. Multiple 2D scene views are sampled from the 3D model and processed by the trained classifier. The final label of the 3D model is selected from the votes of its sampled views. In order to further improve the accuracy, a number of classifiers that share the same architecture are trained to predict the final label. The results of the classifiers are assembled via a voting scheme.
+	
+	Because of the wide variation in the design of a 3D scene, it is not enough to classify the category of a scene simply by extracting the feature (from ResNet50) or from the features of scene attributes (from MIT Place, even after domain adaptation). This motivates their proposal to employ object/entity detectors to identify entities based on hierarchical semantics present in each sampled view.
+	
+	In the second step of the proposed method, they reuse the dataset of natural images collected from the Internet to train object detectors with Faster RCNN \cite{DBLP:journals/corr/RenHG015} for entities that might appear in a scene, such as "book" (in a library), "umbrella" (in a beach), etc. Using this  list of scene semantics detected in sampled views, they further refine their results.
 \end{document}

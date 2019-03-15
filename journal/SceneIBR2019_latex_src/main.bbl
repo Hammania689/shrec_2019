@@ -1,6 +1,12 @@
 \newcommand{\etalchar}[1]{$^{#1}$}
 \begin{thebibliography}{\uppercase{SMKLM15}}
 
+\bibitem[ARYL{\etalchar{*}}19]{SceneIBR19}
+\textsc{Abdul-Rashid H., Yuan J., Li B., Schreck T., Lu Y.}:
+\newblock {{SHREC}'19 {2D} Scene Image-Based {3D} Scene Retrieval Track
+  Website}.
+\newblock \url{http://orca.st.usm.edu/~bli/SceneIBR2019/}, 2019.
+
 \bibitem[ARYLL18]{SHREC18-SceneIBR-Track}
 \textsc{Abdul-Rashid H., Yuan J., Li B., Lu Y.}:
 \newblock {{SHREC}'18 {2D} Scene Image-Based {3D} Scene Retrieval Track
@@ -27,6 +33,13 @@
 \newblock Google images.
 \newblock \url{https://www.google.com/imghp?hl=EN}, 2018.
 
+\bibitem[HZRS15]{resnet}
+\textsc{He K., Zhang X., Ren S., Sun J.}:
+\newblock Deep residual learning for image recognition.
+\newblock \emph{CoRR abs/1512.03385} (2015).
+\newblock URL: \url{http://arxiv.org/abs/1512.03385}, \href
+  {http://arxiv.org/abs/1512.03385} {\path{arXiv:1512.03385}}.
+
 \bibitem[Kal17]{gkallia2017keras_places365}
 \textsc{Kalliatakis G.}:
 \newblock Keras-vgg16-places365.
@@ -42,18 +55,68 @@
 \newblock Auto-encoding variational bayes.
 \newblock \emph{arXiv preprint arXiv:1312.6114} (2013).
 
-\bibitem[LLL{\etalchar{*}}15]{CIVU}
+\bibitem[LLD{\etalchar{*}}16]{DBLP:conf/3dor/0013LDDFQLLLLOT16}
+\textsc{Li B., Lu Y., Duan F., Dong S., Fan Y., Qian L., Laga H., Li H., Li Y.,
+  Liu P., Ovsjanikov M., Tabia H., Ye Y., Yin H., Xue Z.}:
+\newblock {SHREC}'16: {3D} sketch-based {3D} shape retrieval.
+\newblock In \emph{3DOR 2016} (2016).
+
+\bibitem[LLG{\etalchar{*}}13]{DBLP:conf/3dor/LiLGSAJST13}
+\textsc{Li B., Lu Y., Godil A., Schreck T., Aono M., Johan H., Saavedra J.~M.,
+  Tashiro S.}:
+\newblock {SHREC}'13 track: Large scale sketch-based {3D} shape retrieval.
+\newblock In \emph{3DOR} (2013), pp.~89--96.
+
+\bibitem[LLG{\etalchar{*}}14]{DBLP:journals/cviu/0013LGSBFFFJMOPS14}
+\textsc{Li B., Lu Y., Godil A., Schreck T., Bustos B., Ferreira A., Furuya T.,
+  Fonseca M.~J., Johan H., Matsuda T., Ohbuchi R., Pascoal P.~B., Saavedra
+  J.~M.}:
+\newblock A comparison of methods for sketch-based {3D} shape retrieval.
+\newblock \emph{CVIU 119} (2014), 57--80.
+
+\bibitem[LLL{\etalchar{*}}14]{DBLP:conf/3dor/LiLLGSABFFJLOTZ14}
+\textsc{Li B., Lu Y., Li C., Godil A., Schreck T., Aono M., Burtscher M., Fu
+  H., Furuya T., Johan H., Liu J., Ohbuchi R., Tatsuma A., Zou C.}:
+\newblock {SHREC'14 Track:} extended large scale sketch-based {3D} shape
+  retrieval.
+\newblock In \emph{3DOR} (2014), pp.~121--130.
+
+\bibitem[LLL{\etalchar{*}}15a]{CIVU}
 \textsc{Li B., Lu Y., Li C., Godil A., Schreck T., Aono M., Burtscher M., Chen
   Q., Chowdhury N.~K., Fang B., et~al.}:
 \newblock A comparison of 3d shape retrieval methods based on a large-scale
   benchmark supporting multimodal queries.
 \newblock \emph{Computer Vision and Image Understanding 131} (2015), 1--27.
 
+\bibitem[LLL{\etalchar{*}}15b]{DBLP:journals/cviu/LiLLGSABCCFFFLLJKKOTWZZ15}
+\textsc{Li B., Lu Y., Li C., Godil A., Schreck T., Aono M., Burtscher M., Chen
+  Q., Chowdhury N.~K., Fang B., Fu H., Furuya T., Li H., Liu J., Johan H.,
+  Kosaka R., Koyanagi H., Ohbuchi R., Tatsuma A., Wan Y., Zhang C., Zou C.}:
+\newblock A comparison of {3D} shape retrieval methods based on a large-scale
+  benchmark supporting multimodal queries.
+\newblock \emph{CVIU 131} (2015), 1--27.
+
+\bibitem[LSG{\etalchar{*}}12]{DBLP:conf/3dor/LiSGABBCEFHHJKORSSYYY12}
+\textsc{Li B., Schreck T., Godil A., Alexa M., Boubekeur T., Bustos B., Chen
+  J., Eitz M., Furuya T., Hildebrand K., Huang S., Johan H., Kuijper A.,
+  Ohbuchi R., Richter R., Saavedra J.~M., Scherer M., Yanagimachi T., Yoon
+  G.-J., Yoon S.~M.}:
+\newblock {SHREC}'12 track: Sketch-based {3D} shape retrieval.
+\newblock In \emph{3DOR} (2012), pp.~109--118.
+
 \bibitem[Ren]{Renault}
 \textsc{Renault}:
 \newblock {Renault SYMBOIZ Concept}.
 \newblock
   \url{http://www.renault.co.uk/vehicles/concept-cars/symbioz-concept.html}.
+
+\bibitem[RHGS15]{DBLP:journals/corr/RenHG015}
+\textsc{Ren S., He K., Girshick R.~B., Sun J.}:
+\newblock Faster {R-CNN:} towards real-time object detection with region
+  proposal networks.
+\newblock \emph{CoRR abs/1506.01497} (2015).
+\newblock URL: \url{http://arxiv.org/abs/1506.01497}, \href
+  {http://arxiv.org/abs/1506.01497} {\path{arXiv:1506.01497}}.
 
 \bibitem[SMKLM15]{Su2015}
 \textsc{Su H., Maji S., Kalogerakis E., Learned-Miller E.}:

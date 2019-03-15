@@ -21,3 +21,17 @@
 \backcite {Places88}{{4}{2.}{Item.2}}
 \backcite {3DICPR}{{4}{4.2.2}{subsubsection.4.2.2}}
 \backcite {zhou2017places}{{4}{4.2.3}{subsubsection.4.2.3}}
+\backcite {zhou2017places}{{4}{4.3.1}{subsubsection.4.3.1}}
+\backcite {resnet}{{5}{4.3.1}{subsubsection.4.3.1}}
+\backcite {resnet}{{5}{4.3.2}{figure.caption.8}}
+\backcite {ImageNet}{{5}{4.3.2}{figure.caption.8}}
+\backcite {zhou2017places}{{5}{4.3.2}{figure.caption.8}}
+\backcite {DBLP:journals/corr/RenHG015}{{5}{4.3.2}{figure.caption.8}}
+\backcite {SceneIBR19}{{6}{5}{table.caption.10}}
+\backcite {SceneIBR19}{{6}{5}{table.caption.10}}
+\backcite {SceneIBR19}{{6}{5}{table.caption.10}}
+\backcite {DBLP:conf/3dor/LiSGABBCEFHHJKORSSYYY12, DBLP:journals/cviu/0013LGSBFFFJMOPS14}{{6}{6}{section.6}}
+\backcite {DBLP:conf/3dor/LiLGSAJST13, DBLP:journals/cviu/0013LGSBFFFJMOPS14}{{6}{6}{section.6}}
+\backcite {DBLP:conf/3dor/LiLLGSABFFJLOTZ14, DBLP:journals/cviu/LiLLGSABCCFFFLLJKKOTWZZ15}{{6}{6}{section.6}}
+\backcite {DBLP:conf/3dor/0013LDDFQLLLLOT16}{{6}{6}{section.6}}
+\backcite {SHREC18-SceneIBR-Track}{{6}{6}{section.6}}

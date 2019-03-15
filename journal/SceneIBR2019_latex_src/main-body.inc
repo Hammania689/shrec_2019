@@ -7,22 +7,22 @@
 \centering
 Hameed Abdul-Rashid\thanks{\hspace{.1cm}Track organizers}$^{1}$,
 Juefei Yuan\footnotemark[1]$^{1}$,
-Bo Li\footnotemark\thanks{\hspace{.1cm}Corresponding author}$^{1}$,
+Bo Li\footnotemark[1]\footnotemark[3]$^{1}$,
 Yijuan Lu\footnotemark[1]$^{2}$,
 Tobias Schreck\footnotemark[1]$^{3}$,
 Tianyang Wang\footnotemark[1]$^{4}$,
-Ngoc-Minh Bui\footnotemark[4]$^{6,7}$,
-Trong-Le Do\footnotemark[4]$^{6,7}$,
-Mike Holenderski\footnotemark[4]$^{5}$,
-Dmitri Jarnikov\footnotemark[4]$^{5}$,
-Khiem T. Le\footnotemark[4]$^{6}$,
-Vlado Menkovski\footnotemark[4]$^{5}$,
-Khac-Tuan Nguyen\footnotemark[4]$^{6,7}$,
-Thanh-An Nguyen\footnotemark[4]$^{7}$,
-Vinh-Tiep Nguyen\footnotemark[4]$^{8}$,
-Tu V. Ninh\footnotemark[4]$^{6}$,
-Perez Rey\thanks{\hspace{.1cm}Track participants.}$^{5}$,
-Minh-Triet Tran\footnotemark[4]$^{6,7}$
+Ngoc-Minh Bui\footnotemark[2]$^{6,7}$,
+Trong-Le Do\footnotemark[2]$^{6,7}$,
+Mike Holenderski\footnotemark[2]$^{5}$,
+Dmitri Jarnikov\footnotemark[2]$^{5}$,
+Khiem T. Le\footnotemark[2]$^{6}$,
+Vlado Menkovski\footnotemark[2]$^{5}$,
+Khac-Tuan Nguyen\footnotemark[2]$^{6,7}$,
+Thanh-An Nguyen\footnotemark[2]$^{7}$,
+Vinh-Tiep Nguyen\footnotemark[2]$^{8}$,
+Tu V. Ninh\footnotemark[2]$^{6}$,
+Perez Rey\footnotemark[2]$^{5}$,
+Minh-Triet Tran\footnotemark[2]$^{6,7}$
 \end{minipage}
 \\
 $^{1}$ School of Computing, University of Southern Mississippi, USA\\
@@ -39,6 +39,8 @@ $^{8}$ \small University of Information Technology, Vietnam National University 
 \maketitle
 %-------------------------------------------------------------------------
 \subfile{Sections/abstract}
+\footnotetext{*\hspace{.1cm}Corresponding author}
+\footnotetext{\textdaggerdbl\hspace{.1cm}Track participants.}
 \footnotetext{For any question related to the track, please contact Bo Li. \newline \url{bo.li@usm.edu.}}
 %-------------------------------------------------------------------------
 \section{Introduction}
@@ -49,7 +51,6 @@ $^{8}$ \small University of Information Technology, Vietnam National University 
 \section{Benchmark}
 \label{sec:Benchmark}
 \subfile{Sections/benchmark}
-
 %-------------------------------------------------------------------------
 \section{Participants}
 \label{sec:Participants}
