@@ -40,8 +40,8 @@ $^{8}$ \small University of Information Technology, Vietnam National University 
 %-------------------------------------------------------------------------
 \subfile{Sections/abstract}
 \footnotetext{\textdaggerdbl\hspace{.1cm}Track participants.}
-\footnotetext{For any question related to the track, please contact Bo Li. \newline \url{bo.li@usm.edu.}}
-\footnotetext{*\hspace{.1cm}Corresponding author}
+\footnotetext{*\hspace{.1cm}Corresponding author. For any question related to the track, please contact Bo Li. \url{bo.li@usm.edu.}}
+
 %-------------------------------------------------------------------------
 \section{Introduction}
 \label{sec:Introduction}
