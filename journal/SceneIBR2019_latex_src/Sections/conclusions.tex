@@ -2,5 +2,27 @@
 
 \begin{document}
 
-Our record of successful tracks ( \textbf{SHREC'12} ~\cite{DBLP:conf/3dor/LiSGABBCEFHHJKORSSYYY12, DBLP:journals/cviu/0013LGSBFFFJMOPS14}, \textbf{SHREC'13}~\cite{DBLP:conf/3dor/LiLGSAJST13, DBLP:journals/cviu/0013LGSBFFFJMOPS14}, \textbf{SHREC'14}~\cite{DBLP:conf/3dor/LiLLGSABFFJLOTZ14, DBLP:journals/cviu/LiLLGSABCCFFFLLJKKOTWZZ15}, \textbf{SHREC'16}~\cite{DBLP:conf/3dor/0013LDDFQLLLLOT16} and \textbf{SHREC'18}~\cite{SHREC18-SceneIBR-Track}) as well as participating methods have explored many different approaches to solve the intractable task of 2D to 3D  retrieval. \textbf{SceneIBR2019} provided participants with the most diverse and comprehensive 2D/3D scene dataset to date and participating groups have clearly shown that while challenging this task is possible. It is our hopes that the \textbf{SceneIBR2019} benchmark and results will serve as a useful reference to future methods in 3D Scene Retrieval. 
+\subsubsection{Conclusions}
+This track provided participants with the most diverse and comprehensive 2D/3D scene dataset to date, in hopes to advance 3D scene retrieval. Participating groups have explored many different approaches to solve the intractable task of 2D to 3D scene understanding.
+
+Considering the importance of this research direction and its large amount of applications, we built the first 2D scene image-based 3D scene retrieval benchmark in SHREC'18~\cite{SHREC18-SceneIBR-Track}. This year, we have further extended the number of categories from 10 to 30, which further extends the line of our SHREC related research work on sketch-based 3D shape retrieval: SHREC'12~\cite{DBLP:conf/3dor/LiSGABBCEFHHJKORSSYYY12, DBLP:journals/cviu/0013LGSBFFFJMOPS14}, SHREC'13~\cite{DBLP:conf/3dor/LiLGSAJST13, DBLP:journals/cviu/0013LGSBFFFJMOPS14}, SHREC'14~\cite{DBLP:conf/3dor/LiLLGSABFFJLOTZ14, DBLP:journals/cviu/LiLLGSABCCFFFLLJKKOTWZZ15}, SHREC'16~\cite{DBLP:conf/3dor/0013LDDFQLLLLOT16}, SHREC'18~\cite{SHREC18-SceneIBR-Track} and this year's SHREC'19~\cite{SceneIBR19}.
+
+Though even more challenging than last year, we still have three groups who have successfully participated in the track and contributed eight runs of three methods. Based on the number of (six) registrations, we also have found that it seems that this image-based retrieval track has attracted more potential contributors, compared to our sketch-based retrieval track. We believe this should be partially related to its relatively less difficulties and more broad applications as well. Extended from SHREC'18~\cite{SHREC18-SceneIBR-Track}, this track, together with its benchmark and retrieval results, will become an even more useful resource for the researchers that are interested in this topic as well as many related applications.
+
+
+\subsubsection{Future Work}
+This track not only provides us with a common platform to solicit the retrieval performance (including scalability) from current 2D image-based 3D scene retrieval algorithms, but also offers us an opportunity to further identify state-of-the-art approaches as well as future research directions for this research area.
+
+\begin{itemize}
+	
+	\item \textbf{Large-scale benchmarks.} Our \textbf{SceneIBR2019}, even as the largest benchmark for 2D scene image based 3D scene retrieval, has only thirty scene categories, which is far from large-scale. This again can partially explain the still relatively good performance that has been achieved by the top deep learning-based participating methods. However, we did see an apparent drop in the overall performance. Therefore, testing the scalability of a retrieval algorithm with respect to a large-scale retrieval scenario and various 2D/3D data formats is very important for many practical applications. Therefore, our next target is to build a large-scale benchmark which supports multiple modalities of 2D queries (i.e. images and sketches) and/or 3D target models (i.e. meshes, RGB-D, LIDAR, and range scans).
+	
+	\item \textbf{Semantics-driven retrieval approaches.} A lot of semantic information exists in both the 2D query images and the 3D target scenes in our current \textbf{SceneIBR19} benchmark. However, we have found again that there is no participating group that has directly utilized it during retrieval. Therefore, in the hope of developing a practical retrieval algorithm which is scalable to the size of the benchmark, we should prioritize this in our future work list.
+	
+	\item \textbf{Classification-based retrieval.} Again, we have found that classification/recognition-based 3D model retrieval (i.e. Tran's RNIRAP and Yuan's VMV-VGG) has great potential in achieving better performance.
+	
+	
+\end{itemize}
+
+
 \end{document}

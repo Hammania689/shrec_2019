@@ -8,46 +8,44 @@ Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: shrec2019.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Warning--empty journal in Kingma2014a
 You've used 26 entries,
             3585 wiz_defined-function locations,
-            893 strings with 11335 characters,
-and the built_in function-call counts, 15902 in all, are:
-= -- 1481
-> -- 1000
+            893 strings with 11618 characters,
+and the built_in function-call counts, 16469 in all, are:
+= -- 1531
+> -- 1049
 < -- 6
-+ -- 376
-- -- 371
-* -- 1184
-:= -- 2425
++ -- 397
+- -- 393
+* -- 1241
+:= -- 2511
 add.period$ -- 56
 call.type$ -- 26
-change.case$ -- 258
-chr.to.int$ -- 24
-cite$ -- 27
-duplicate$ -- 433
-empty$ -- 1139
-format.name$ -- 393
-if$ -- 3638
-int.to.chr$ -- 3
+change.case$ -- 267
+chr.to.int$ -- 25
+cite$ -- 26
+duplicate$ -- 451
+empty$ -- 1170
+format.name$ -- 413
+if$ -- 3759
+int.to.chr$ -- 2
 int.to.str$ -- 0
 missing$ -- 18
 newline$ -- 138
 num.names$ -- 78
-pop$ -- 396
+pop$ -- 406
 preamble$ -- 1
-purify$ -- 284
+purify$ -- 293
 quote$ -- 0
-skip$ -- 834
+skip$ -- 857
 stack$ -- 0
-substring$ -- 500
-swap$ -- 117
+substring$ -- 527
+swap$ -- 128
 text.length$ -- 6
 text.prefix$ -- 6
 top$ -- 0
 type$ -- 234
-warning$ -- 1
-while$ -- 100
-width$ -- 28
-write$ -- 321
-(There was 1 warning)
+warning$ -- 0
+while$ -- 101
+width$ -- 29
+write$ -- 324

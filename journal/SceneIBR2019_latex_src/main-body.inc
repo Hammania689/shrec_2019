@@ -39,9 +39,9 @@ $^{8}$ \small University of Information Technology, Vietnam National University 
 \maketitle
 %-------------------------------------------------------------------------
 \subfile{Sections/abstract}
-\footnotetext{*\hspace{.1cm}Corresponding author}
 \footnotetext{\textdaggerdbl\hspace{.1cm}Track participants.}
 \footnotetext{For any question related to the track, please contact Bo Li. \newline \url{bo.li@usm.edu.}}
+\footnotetext{*\hspace{.1cm}Corresponding author}
 %-------------------------------------------------------------------------
 \section{Introduction}
 \label{sec:Introduction}
@@ -58,7 +58,7 @@ $^{8}$ \small University of Information Technology, Vietnam National University 
 
 %-------------------------------------------------------------------------
 \section{Methods}
-\subsection{Conditional Variational Autoencoders for Image Based Scene Retrieval}
+\subsection{CVAE: Conditional Variational Autoencoders for Image Based Scene Retrieval}
 \label{sec:perez}
 \subfile{Sections/perez}
 
@@ -66,7 +66,9 @@ $^{8}$ \small University of Information Technology, Vietnam National University 
 \label{sec:yuan}
 \subfile{Sections/yuan}
 
-\subsection{RNIRAP}
+\subsection{RNIRAP: ResNet18-Based 2D Scene Image Recognition
+with Scene Attributes and Adapting Place Classification
+for 3D Models Using Adversarial Training}
 \label{sec:triet}
 \subfile{Sections/triet}
 

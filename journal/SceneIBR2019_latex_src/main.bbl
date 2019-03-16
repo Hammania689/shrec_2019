@@ -13,8 +13,14 @@
   Website}.
 \newblock \url{http://orca.st.usm.edu/~bli/SceneIBR2018/}, 2018.
 
-\bibitem[Dea09]{ImageNet}
-\textsc{Deng J., et~al}:
+\bibitem[ARYLL19]{MIPR}
+\textsc{Abdul-Rashid H., Yuan J., Li B., Lu Y.}:
+\newblock Sketch/image-based 3d scene retrieval: Benchmark, algorithm,
+  evaluation.
+\newblock In \emph{{MIPR}} (2019), IEEE.
+
+\bibitem[DDS{\etalchar{*}}09]{ImageNet}
+\textsc{Deng J., Dong W., Socher R., Li L.-J., Li K., Fei-Fei L.}:
 \newblock {ImageNet}: A large-scale hierarchical image database.
 \newblock In \emph{CVPR} (2009), pp.~248--255.
 
@@ -23,12 +29,7 @@
 \newblock Flickr.
 \newblock \url{https://www.flickr.com/}, 2018.
 
-\bibitem[Goo18a]{3DWarehouse}
-\textsc{Google}:
-\newblock 3{D} {W}arehouse.
-\newblock \url{http://3dwarehouse.sketchup.com/?hl=en}, 2018.
-
-\bibitem[Goo18b]{GoogleImages}
+\bibitem[Goo18]{GoogleImages}
 \textsc{Google}:
 \newblock Google images.
 \newblock \url{https://www.google.com/imghp?hl=EN}, 2018.
@@ -45,10 +46,11 @@
 \newblock Keras-vgg16-places365.
 \newblock \url{https://github.com/GKalliatakis/Keras-VGG16-places365}, 2017.
 
-\bibitem[KRMW14]{Kingma2014a}
-\textsc{Kingma D.~P., Rezende D.~J., Mohamed S., Welling M.}:
-\newblock {Semi-Supervised Learning with Deep Generative Models}.
-\newblock 1--9.
+\bibitem[KMRW14]{kingma2014semi}
+\textsc{Kingma D.~P., Mohamed S., Rezende D.~J., Welling M.}:
+\newblock Semi-supervised learning with deep generative models.
+\newblock In \emph{Advances in neural information processing systems} (2014),
+  pp.~3581--3589.
 
 \bibitem[KW13]{kingma2013auto}
 \textsc{Kingma D.~P., Welling M.}:
@@ -104,11 +106,12 @@
 \newblock {SHREC}'12 track: Sketch-based {3D} shape retrieval.
 \newblock In \emph{3DOR} (2012), pp.~109--118.
 
-\bibitem[Ren]{Renault}
+\bibitem[Ren18]{Renault}
 \textsc{Renault}:
 \newblock {Renault SYMBOIZ Concept}.
 \newblock
-  \url{http://www.renault.co.uk/vehicles/concept-cars/symbioz-concept.html}.
+  \url{http://www.renault.co.uk/vehicles/concept-cars/symbioz-concept.html},
+  2018.
 
 \bibitem[RHGS15]{DBLP:journals/corr/RenHG015}
 \textsc{Ren S., He K., Girshick R.~B., Sun J.}:
@@ -126,21 +129,22 @@
 \newblock \href {https://doi.org/10.1109/ICCV.2015.114}
   {\path{doi:10.1109/ICCV.2015.114}}.
 
-\bibitem[Tip]{Youtube}
+\bibitem[Tip18]{Youtube}
 \textsc{Tips L.~T.}:
 \newblock Driving a multi-million dollar autonomous car.
-\newblock \url{http://www.youtube.com/watch?v=vlIJfV1u2hM\&feature=youtu.be}.
+\newblock \url{http://www.youtube.com/watch?v=vlIJfV1u2hM\&feature=youtu.be},
+  2018.
 
-\bibitem[Xea10]{SUN}
-\textsc{Xiao J., et~al}:
-\newblock {SUN} database: Large-scale scene recognition from abbey to zoo.
-\newblock In \emph{{CVPR}} (2010), {IEEE} Computer Society, pp.~3485--3492.
+\bibitem[Tri18]{3DWarehouse}
+\textsc{Trimble I.}:
+\newblock 3{D} {W}arehouse.
+\newblock \url{http://3dwarehouse.sketchup.com/?hl=en}, 2018.
 
-\bibitem[Yea19]{MIPR}
-\textsc{Yuan J., et~al}:
-\newblock Sketch/image-based 3d scene retrieval: Benchmark, algorithm,
-  evaluation.
-\newblock In \emph{{MIPR}} (2019), IEEE.
+\bibitem[XHE{\etalchar{*}}10]{SUN}
+\textsc{Xiao J., Hays J., Ehinger K.~A., Oliva A., Torralba A.}:
+\newblock Sun database: Large-scale scene recognition from abbey to zoo.
+\newblock In \emph{2010 IEEE Computer Society Conference on Computer Vision and
+  Pattern Recognition} (2010), IEEE, pp.~3485--3492.
 
 \bibitem[YLL16]{3DICPR}
 \textsc{Ye Y., Li B., Lu Y.}:

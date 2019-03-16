@@ -1,9 +1,9 @@
 \documentclass[../main.tex]{subfiles}
 
 \begin{document}
-	\subsubsection{2D Scene Image classification with scene's deep features}
+	\subsubsection{2D Scene Image Classification with Scene's Deep Features}
 	
-	To classify an image into one of the 30 scene categories in this track, they apply their method (used in \textbf{SceneIBR2018}) to extract scene's deep feature using MIT Places API \cite{zhou2017places}. They train a simple network with the extracted features from Place API and use this network to classify an input image with 30 labels.
+	To classify an image into one of the 30 scene categories in this track, they apply their method (used in \textbf{SceneIBR2018} \cite{SHREC18-SceneIBR-Track}) to extract scene's deep feature using MIT Places API \cite{zhou2017places}. They train a simple network with the extracted features from Place API and use this network to classify an input image with 30 labels.
 	
 	In their first step, an input image is represented as a feature vector in Place API domain vector space using a pre-trained ResNet-50 \cite{resnet} model on the MIT Places API scene recognition network. Instead of using 102 scene attributes as in their previous \textbf{SceneIBR2018}, they use a 512-dimensional deep feature representation which is generated before being processed through dense layers for classification.
 	
@@ -17,7 +17,7 @@
 	\end{figure}
 	
 	
-	\subsubsection{3D scene classification with multiple screenshots, domain adaptation, and concept augmentation}
+	\subsubsection{3D Scene Classification with Multiple Screenshots, Domain Adaptation, and Concept Augmentation}
 	They suggest two steps for 3D scene classification as showed in \textbf{Fig.} \ref{fig:3D overview}. In the first step, they use a mixture of multiple classification models.
 	
 	\begin{figure}
