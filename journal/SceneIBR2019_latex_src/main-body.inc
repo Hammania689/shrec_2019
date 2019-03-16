@@ -84,7 +84,6 @@ for 3D Models Using Adversarial Training}
 %-------------------------------------------------------------------------
 \section{Acknowledgements}
 \subfile{Sections/acknowlegde}
-\newpage
 %-------------------------------------------------------------------------
 %\bibliographystyle{eg-alpha}
 \bibliographystyle{eg-alpha-doi}
