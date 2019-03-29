@@ -9,14 +9,17 @@ Each 3D scene model is in a 3D sphere observable by an automated QMacro that cap
 
 
 \subsubsection{Data Augmentation}
-They implemented several augmentations on the dataset to avoid overfitting (e.g rotations, translations and reflections). These augmentations extended the dataset to be 500 times its initial size \cite{3DICPR}. 
+They implemented several augmentations (e.g rotations, 
+translations and reflections) on the dataset to avoid overfitting 
+\cite{3DICPR}. These augmentations extended the dataset to be 500 
+times its initial size. 
 
 
 \subsubsection{Pre-training and Fine-tuning}   
 They preformed domain adaption with VGG2 on the Places scene image dataset \cite{zhou2017places} for 100 epochs. After this adaption phase, another phase of domain adaption is performed on VGG2 with the 2D scene views training dataset, respectively.
 
-\subsubsection{Image/ View Classification and Majority Vote-based Label Matching}
-Probability distributions of classifications were obtained from the trained VGG2 with the target 2D scene views testing dataset. A query image and each model's 13 scene views are used to generate a rank list for the SSSSSSquery by using a majority vote-based label matching method.
+\subsubsection{Image/ View Classification and Majority Vote-Based Label Matching}
+Probability distributions of classifications were obtained from the trained VGG2 with the target 2D scene views testing dataset. A query image and each model's 13 scene views are used to generate a rank list for the query by using a majority vote-based label matching method.
 
 \begin{figure}[!htp]
 \centering

@@ -24,7 +24,8 @@
 		\hline
 		\textbf{\normalsize{Complete benchmark}}\\
 		\hline
-		\multirow{2}{*}{Triet} &RNIRAP1 &0.845    &0.620   &0.674   &0.618   &0.791  &  0.5436\\	
+		\multirow{2}{*}{Triet} &RNIRAP1 &0.845    &0.620   &0.674   &0.618   
+		&0.791  &  0.5436\\	
 		\cline{2-8}
 		&RNIRAP2 &\textbf{0.865}    &\textbf{0.749}   &\textbf{0.792}   &\textbf{0.745}   &\textbf{0.863} &\textbf{0.7221}\\	
 		\hline  		 									
@@ -41,18 +42,48 @@
 	\end{tabular}
 \end{table*}
 
-A comparative evaluation of the is performed on all methods. The measured retrieval performance is based on the seven metrics mentioned in Section~\ref{sec:Evaluation}: PR, NN, FT, ST, E, DCG and AP. \textbf{Fig.}~\ref{Results} and \textbf{Table}~\ref{tab:IBR19} compare the three learning-based participating methods on the testing dataset.
+A comparative evaluation has been performed on all methods. The measured 
+retrieval performance is based on the seven metrics mentioned in 
+Section~\ref{sec:Evaluation}: PR, NN, FT, ST, E, DCG and AP. 
+\textbf{Fig.}~\ref{Results} and \textbf{Table}~\ref{tab:IBR19} compare the 
+three learning-based participating methods on the testing dataset.
 
-As can be seen in the aforementioned figure and table, Tran's RNIRAP algorithm (run 2) performs the best, followed by the baseline method VMV-VGG and the CVAE method (CVAE2). More details about the retrieval performance of each individual query of every participating method are available on the \textbf{SceneIBR2019} track homepage~\cite{SceneIBR19} . 
+As can be seen in the aforementioned figure and table, Tran's RNIRAP algorithm 
+(run 2) performs the best, followed by the baseline method VMV-VGG and the CVAE 
+method (CVAE2). More details about the retrieval performance of each individual 
+query of every participating method are available on the \textbf{SceneIBR2019} 
+track website~\cite{SceneIBR19} . 
 
-Firstly, during this year's track all the three methods submitted by the three participating groups are leaning-based methods, while there is no submission involving a non-learning based approach. In addition, all of three methods have employed a deep neural networks based learning approach. 
+Firstly, during this year's track all the three methods submitted by the three 
+participating groups are leaning-based methods, while there is no submission 
+involving a non-learning based approach. In addition, all of the three methods 
+have employed a deep neural networks based learning approach. 
 
 Secondly, we could further classify the submitted approaches at a finer granularity. Both RNIRAP and VMV-VGG utilize CNN models and a classification-based approach, which contribute a lot to their better accuracies. While, the CVAE-based method uses a conditional VAE generative model and resulted latent features to measure the 2D-3D similarities. 
 
 Therefore, according to these two years' SHREC tracks (SHREC'19 and SHREC'18) on this topic, deep learning-based techniques are still the most promising and popular approach in tackling this new and challenging research direction.
 
-In direct comparison to the results from \textbf{SceneIBR2018}, \textbf{SceneIBR2019} results do not preform as well. This is to be expected for the 10 scene categories in the \textbf{SceneIBR2018} benchmark were distinct and had few correlations. As explored by Yuan, J. et al \cite{MIPR}, the significant drop in performance can be attributed to the introduction of many correlating scene categories. 
+In direct comparison to the results from \textbf{SceneIBR2018}, 
+\textbf{SceneIBR2019} results do not preform as well. This is to be expected 
+since the 10 scene categories in the \textbf{SceneIBR2018} benchmark were 
+distinct and have few correlations. As explored by Yuan, J. et al \cite{MIPR}, 
+the significant drop in performance can be attributed to the introduction of 
+many correlating scene categories. 
 
 
-Finally, we would like to compare the performance of SHREC'19 two related tracks on the topic of 3D scene retrieval. Similarly, this year in a parallel way we also have organized another SHREC'19 track on ``Extended 2D Sketch-Based 3D Scene Retrieval''~\cite{SceneIBR19}, based on the same target 3D scene dataset and a different query dataset which contains 25 sketches for each of the 30 classes. Except CVAE, these two tracks share other two participating methods (with minor differences). It is the second time that we have found the performance on the performance achieved in this extended ``Image-Based 3D Scene Retrieval (IBR)'' track is significantly better, compared with that achieved on the back to back extended ``Sketch-Based 3D Scene Retrieval (IBR)'' track. This should be attributed to the same reasons as we have concluded in~\cite{SceneIBR19}: IBR has a much larger query training dataset which contains images, instead of sketches, that have much more details and color information as well, which makes the semantic gap between the 2D query image and 3D target scenes much smaller.  
+Finally, we would like to compare the performance of SHREC'19 two related 
+tracks on the topic of 3D scene retrieval. Similarly, this year in a parallel 
+way we also have organized another SHREC'19 track on ``Extended 2D Sketch-Based 
+3D Scene Retrieval''~\cite{SceneIBR19}, based on the same target 3D scene 
+dataset and a different query dataset which contains 25 sketches for each of 
+the 30 classes. Except CVAE, these two tracks share other two participating 
+methods (with minor differences). It is the second time that we have found that 
+the performance achieved in this extended ``Image-Based 3D Scene Retrieval 
+(IBR)'' track is significantly better, compared with that achieved on the back 
+to back extended ``Sketch-Based 3D Scene Retrieval (IBR)'' track. This should 
+be attributed to the same reasons as we 
+have concluded in \cite{SceneIBR18Journal}: IBR has a 
+much larger query training dataset which contains images, instead of sketches, 
+that have much more details and color information as well, which makes the 
+semantic gap between the 2D query image and 3D target scenes much smaller.  
 \end{document}

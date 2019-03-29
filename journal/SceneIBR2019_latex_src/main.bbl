@@ -1,6 +1,13 @@
 \newcommand{\etalchar}[1]{$^{#1}$}
 \begin{thebibliography}{\uppercase{SMKLM15}}
 
+\bibitem[ARYL{\etalchar{*}}18]{SceneIBR18Journal}
+\textsc{Abdul-Rashid H., Yuan J., Li B., Lu Y., Bai S., Bai X., Bui N.-M., Do
+  M.~N., Do T.-L., Duong A.-D., et~al.}:
+\newblock 2d image-based 3d scene retrieval.
+\newblock In \emph{Proceedings of the 11th Eurographics Workshop on 3D Object
+  Retrieval} (2018), Eurographics Association, pp.~37--44.
+
 \bibitem[ARYL{\etalchar{*}}19]{SceneIBR19}
 \textsc{Abdul-Rashid H., Yuan J., Li B., Schreck T., Lu Y.}:
 \newblock {{SHREC}'19 {2D} Scene Image-Based {3D} Scene Retrieval Track

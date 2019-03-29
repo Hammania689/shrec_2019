@@ -25,13 +25,16 @@ Perez Rey\footnotemark[2]$^{5}$,
 Minh-Triet Tran\footnotemark[2]$^{6,7}$
 \end{minipage}
 \\
-$^{1}$ School of Computing, University of Southern Mississippi, USA\\
+$^{1}$ School of Computer Science and Computer Engineering, University of 
+Southern Mississippi, USA\\
 $^{2}$ Department of Computer Science, Texas State University, USA\\
-$^{3}$ Institue of Computer Graphics and knowledge visualization, Graz University of Technology, Austria\\
+$^{3}$ Institue of Computer Graphics and Knowledge Visualization, Graz 
+University of Technology, Austria\\
 $^{4}$ Department of Computer Science and Information Technology, Austin Peay State University, USA\\
 $^{5}$ \small Eindhoven University of Technology, Netherlands\\
 $^{6}$ \small Faculty of Information Technology, Vietnam National University - Ho Chi Minh City, Vietnam\\
-$^{7}$ \small Software Engineering Lab, Vietnam National University - Ho Chi Minh City Vietnam\\
+$^{7}$ \small Software Engineering Lab, Vietnam National University - Ho Chi 
+Minh City, Vietnam\\
 $^{8}$ \small University of Information Technology, Vietnam National University - Ho Chi Minh City, Vietnam\\
 }
 %-------------------------------------------------------------------------
@@ -39,9 +42,10 @@ $^{8}$ \small University of Information Technology, Vietnam National University 
 \maketitle
 %-------------------------------------------------------------------------
 \subfile{Sections/abstract}
-\footnotetext{\textdaggerdbl\hspace{.1cm}Track participants.}
-\footnotetext{*\hspace{.1cm}Corresponding author. For any question related to the track, please contact Bo Li. \url{bo.li@usm.edu.}}
-
+\footnotetext{\textdaggerdbl\hspace{.1cm}Track participants}
+\footnotetext{*\hspace{.1cm}Corresponding author. For any question related to 
+the track, please contact Bo Li. \url{bo.li@usm.edu.} or 
+\url{li.bo.ntu0@gmail.com}}
 %-------------------------------------------------------------------------
 \section{Introduction}
 \label{sec:Introduction}
@@ -58,20 +62,25 @@ $^{8}$ \small University of Information Technology, Vietnam National University 
 
 %-------------------------------------------------------------------------
 \section{Methods}
-\subsection{CVAE: Conditional Variational Autoencoders for Image Based Scene Retrieval}
+\subsection{CVAE: Conditional Variational Autoencoders for Image 
+Based Scene Retrieval, by P. Rey, M. Holenderski, D. Jarnikov and 
+V. Menkovski}
 \label{sec:perez}
 \subfile{Sections/perez}
 
-\subsection{VMV-VGG: View and Majority Vote based 3D scene retrieval algorithm}
+\subsection{VMV-VGG: View and Majority Vote Based 3D Scene 
+Retrieval Algorithm, by J. Yuan, H. Abdul-Rashid, B. Li, T. Wang, 
+Y. Lu}
 \label{sec:yuan}
 \subfile{Sections/yuan}
 
 \subsection{RNIRAP: ResNet18-Based 2D Scene Image Recognition
 with Scene Attributes and Adapting Place Classification
-for 3D Models Using Adversarial Training}
+for 3D Models Using Adversarial Training, by [CLARIFY DISCREPNCY 
+OF 1ST AUTHOR] N. Bui, T. Do, K. Nguyen, T. Ninh, K. Le, T. 
+Nguyen, M. Tran and V. Nguyen}
 \label{sec:triet}
 \subfile{Sections/triet}
-
 %-------------------------------------------------------------------------
 \section{Results}
 \label{sec:Results}
@@ -80,6 +89,7 @@ for 3D Models Using Adversarial Training}
 %-------------------------------------------------------------------------
 \section{Conclusions and Future Work}
 \subfile{Sections/conclusions}
+
 
 %-------------------------------------------------------------------------
 \section{Acknowledgements}
