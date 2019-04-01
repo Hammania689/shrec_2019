@@ -3,7 +3,16 @@
 \subsection{Overview}
 \begin{document}
 \textbf{Building process.} 
-Scene categories were selected from  Places \cite{zhou2017places} and with the criteria of selection being \textit{popularity}, in terms of the degree to which they are commonly seen. Through a three-person voting mechanism we selected the most popular 30 scene classes (including the initial 10 classes in \textbf{SceneIBR2018}) from the 88 scene classes of Places88 dataset \cite{Places88}, which are shared by ImageNet \cite{ImageNet}, SUN \cite{SUN}, and Places \cite{zhou2017places}. 
+Scene categories were selected from the Places scene 
+recognition database \cite{zhou2017places} and with the 
+criteria of selection being \textit{popularity}, in terms 
+of the degree to which they are commonly seen. Through a 
+three-person voting mechanism we selected the most 
+popular 30 scene classes (including the initial 10 
+classes in \textbf{SceneIBR2018}) from the 88 scene 
+classes of Places88 dataset \cite{Places88}, which are 
+shared by ImageNet \cite{ImageNet}, SUN \cite{SUN}, and 
+Places \cite{zhou2017places}. 
 Instances for the additional 20 classes, were sourced from Flickr \cite{Flickr} as well as Google Images\cite{GoogleImages} for images and downloaded via 3D Warehouse \cite{3DWarehouse} for scene models. 
 
 \textbf{Benchmark details.} Our extended 2D scene image-based 3D scene retrieval benchmark \textbf{SceneIBR2019} expands the initial 10 classes of \textbf{SceneIBR2018} with 20 new classes totaling a more comprehensive dataset of 30 classes. \textbf{SceneIBR2019} contains a complete dataset of 30,000 2D scene images (1,000 per class) and 3,000 3D scene models (100 per class). Examples for each class are demonstrated in both \textbf{Fig. \ref{fig:1}} and \textbf{Fig. \ref{fig:2}}.
@@ -55,9 +64,11 @@ In the same manner as the \textbf{SceneIBR2018} track, we randomly pull 700 imag
 
 \subsection{Evaluation Method}
 \label{sec:Evaluation}
-To have a comprehensive evaluation of the retrieval algorithm, we employ 
-seven commonly adopted performance metrics in 3D model retrieval 
-community: Precision-Recall (PR) diagram, Nearest Neighbor (NN), First 
+To have a comprehensive evaluation of the retrieval 
+algorithm, we employ seven commonly adopted performance 
+metrics in the 3D model retrieval community: 
+Precision-Recall (PR) diagram, Nearest Neighbor (NN), 
+First 
 Tier (FT), Second Tier (ST), E-Measure (E), Discounted Cumulated Gain 
 (DCG) and Average Precision (AP) \cite{CIVU}. We have developed the 
 related code to compute these metrics $^{1}$.
