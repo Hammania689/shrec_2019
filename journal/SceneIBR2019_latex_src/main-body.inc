@@ -31,7 +31,7 @@ $^{2}$ Department of Computer Science, Texas State University, USA\\
 $^{3}$ Institue of Computer Graphics and Knowledge Visualization, Graz 
 University of Technology, Austria\\
 $^{4}$ Department of Computer Science and Information Technology, Austin Peay State University, USA\\
-$^{5}$ \small Eindhoven University of Technology, Netherlands\\
+$^{5}$ \small Department of Mathematics and Computer Science, Eindhoven University of Technology, Netherlands\\
 $^{6}$ \small Faculty of Information Technology, Vietnam National University - Ho Chi Minh City, Vietnam\\
 $^{7}$ \small Software Engineering Lab, Vietnam National University - Ho Chi 
 Minh City, Vietnam\\
