@@ -5,12 +5,12 @@
 {
 \begin{minipage}[b]{0.95\linewidth} % A minipage that covers half the page
 \centering
-Hameed Abdul-Rashid\thanks{\hspace{.1cm}Track organizers}$^{1}$,
-Juefei Yuan\footnotemark[1]$^{1}$,
-Bo Li\footnotemark[1]\footnotemark[3]$^{1}$,
-Yijuan Lu\footnotemark[1]$^{2}$,
-Tobias Schreck\footnotemark[1]$^{3}$,
-Tianyang Wang\footnotemark[1]$^{4}$,
+Hameed Abdul-Rashid\thanks{\hspace{.1cm}Track organizers}\footnotemark[2]$^{1}$,
+Juefei Yuan\footnotemark[1]\footnotemark[2]$^{1}$,
+Bo Li\footnotemark[1]\footnotemark[2]\footnotemark[3]$^{1}$,
+Yijuan Lu\footnotemark[1]\footnotemark[2]$^{2}$,
+Tobias Schreck\footnotemark[1]\footnotemark[2]$^{3}$,
+Tianyang Wang\footnotemark[1]\footnotemark[2]$^{4}$,
 Ngoc-Minh Bui\footnotemark[2]$^{6,7}$,
 Trong-Le Do\footnotemark[2]$^{6,7}$,
 Mike Holenderski\footnotemark[2]$^{5}$,
