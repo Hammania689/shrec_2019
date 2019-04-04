@@ -5,7 +5,7 @@
 	
 	To classify an image into one of the 30 scene categories in this track, 
 	they apply their method (used in \textbf{SceneIBR2018} 
-	\cite{SHREC18-SceneIBR-Track}) to extract scenes' deep features using MIT 
+	\cite{SceneIBR18Website}) to extract scenes' deep features using MIT 
 	Places API \cite{zhou2017places}. They train a simple network with the 
 	extracted features from Places API and use this network to classify an 
 	input image with 30 labels.
@@ -17,10 +17,9 @@
 	they use a 512-dimensional deep feature representation which is generated 
 	before being processed through dense layers for classification.
 	
-	Next, they utilize the extracted features to train a neural network 
-	classification with 30 labels. Different from their method used in the 
-	\textbf{SceneIBR2018}, the input feature is processed through two dense 
-	hidden layers with a dimension of 1024 for each layer, instead of a small 
+	Next, they utilize the extracted features to train a neural network classifier on the provided 30 scene categories. Different from their method used in the 
+	\textbf{SceneIBR2018} track, the input feature is processed through two dense 
+	hidden layers with a dimension of 1,024 for each layer, instead of a small 
 	network of $100 \le K \le 200$ dimensions as stated in their previous 
 	method. The visualization of their network configuration is demonstrated in 
 	\textbf{Fig.} \ref{fig:2DSceneClassificationNetwork}. The network is 
@@ -30,12 +29,12 @@
 	image is outputted by using a majority voting scheme from these three 
 	models.
 	
-	\begin{figure}[h]
-		\includegraphics[width=8cm]{2DSceneClassification.png}
+	\begin{center}
+		\includegraphics[width=\linewidth]{2DSceneClassification.png}
 		\centering
-		\caption{2D scene classification with scenes' deep features.}
+		\captionof{figure}{2D scene classification with scenes' deep features.}
 		\label{fig:2DSceneClassificationNetwork}
-	\end{figure}
+	\end{center}
 	
 	
 	\subsubsection{3D Scene Classification with Multiple Screenshots, Domain Adaptation, and Concept Augmentation}
@@ -61,8 +60,7 @@
 	the best accuracy is chosen for the voting scheme.
 	
 	To utilize the scene attribute information more efficiently, they extract 
-	the 365-dimensional features from Places365 and directly concatenate with 
-	features extracted by ResNet-50. Some of the scene attribute features are 
+	the 365-dimensional scene attribute features from Places365 and directly concatenate with the features extracted by ResNet-50. Some of the scene attribute features are 
 	useful and informative for the classification task, such as the attributes 
 	of "outdoor" and "swimming" can relate to the "beach" category. However, 
 	concatenating the two feature vectors may cause the model to overfit data 
@@ -91,7 +89,7 @@
 	basic adversarial loss. In the place classification component, they train a 
 	classifier whose input is the learned representation of the 3D model. 
 	Multiple 2D scene views are sampled from the 3D model and processed by the 
-	trained classifier. The final label of the 3D model is selected from the 
+	trained classifier. The final label of the 3D model is selected based on the 
 	votes of its sampled views. In order to further improve the accuracy, a 
 	number of classifiers that share the same architecture are trained to 
 	predict the final label. The results of the classifiers are assembled via a 
@@ -105,4 +103,6 @@
 	each sampled view.
 	
 	In the second step of the proposed method, they reuse the dataset of natural images collected from the Internet to train object detectors with Faster RCNN \cite{DBLP:journals/corr/RenHG015} for entities that might appear in a scene, such as "book" (in a library), "umbrella" (in a beach), etc. Using this  list of scene semantics detected in sampled views, they further refine their results.
+
+
 \end{document}

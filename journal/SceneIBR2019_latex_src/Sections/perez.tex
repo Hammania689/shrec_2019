@@ -1,16 +1,15 @@
 \documentclass[../main.tex]{subfiles}
 
 \begin{document}
-\begin{figure}[htb]
+\begin{center}
 	\centering
-	\includegraphics[width=.8\linewidth]{comparison2.png}
-	\caption{\label{fig:cvae} Overview of Scene Sampling and CVAE Distribution 
-	Learning}
-\end{figure}
+	\includegraphics[width=\linewidth,height=4cm]{comparison2.png}
+	\captionof{figure}{\label{fig:cvae} Overview of scene sampling and CVAE distribution learning.}
+\end{center}
 
 \subsubsection{Overview}
 The proposed approach consists of image to image comparison with conditional 
-variational autoencoders (CVAE) \cite{kingma2014semi}, as shown \textbf{Fig.} 
+variational autoencoders (CVAE) \cite{kingma2014semi}, as shown in \textbf{Fig.} 
 \ref{fig:cvae}. The CVAE is a semi-supervised method for approximating the 
 underlying generative model that produces a set of images and their 
 corresponding class labels in terms of the so-called unobserved latent 
@@ -28,7 +27,7 @@ Thirteen renderings are obtained for each of the 3D scenes. Each of the 3D
 scenes has a predefined view when loaded into the SketchUp software. This view 
 is saved as a 2D view together with twelve views at different angles around the 
 scene as in \cite{Su2015}.
-The training data set consists of the 3D scene renders together with the 
+The training data set consists of the 3D scene renderings together with the 
 training images. All images are resized to a resolution of $64\times64$ and all 
 pixel values are normalized to the interval $[0,1]$. Image data augmentation is 
 carried out by performing a horizontal flip to all images. The corresponding 

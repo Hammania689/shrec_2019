@@ -24,7 +24,7 @@
 		\hline
 		\textbf{\normalsize{Complete benchmark}}\\
 		\hline
-		\multirow{2}{*}{Triet} &RNIRAP1 &0.845    &0.620   &0.674   &0.618   
+		\multirow{2}{*}{Bui} &RNIRAP1 &0.845    &0.620   &0.674   &0.618   
 		&0.791  &  0.5436\\	
 		\cline{2-8}
 		&RNIRAP2 &\textbf{0.865}    &\textbf{0.749}   &\textbf{0.792}   &\textbf{0.745}   &\textbf{0.863} &\textbf{0.7221}\\	
@@ -48,7 +48,7 @@ Section~\ref{sec:Evaluation}: PR, NN, FT, ST, E, DCG and AP.
 \textbf{Fig.}~\ref{Results} and \textbf{Table}~\ref{tab:IBR19} compare the 
 three learning-based participating methods on the testing dataset.
 
-As can be seen in the aforementioned figure and table, Tran's RNIRAP algorithm 
+As can be seen in the aforementioned figure and table, Bui's RNIRAP algorithm 
 (run 2) performs the best, followed by the baseline method VMV-VGG and the CVAE 
 method (CVAE2). More details about the retrieval performance of each individual 
 query of every participating method are available on the \textbf{SceneIBR2019} 
@@ -65,7 +65,7 @@ Therefore, according to these two years' SHREC tracks (SHREC'19 and SHREC'18) on
 
 In direct comparison to the results from \textbf{SceneIBR2018}, 
 \textbf{SceneIBR2019} results do not preform as well. This is to be expected 
-since the 10 scene categories in the \textbf{SceneIBR2018} benchmark were 
+since the 10 scene categories in the \textbf{SceneIBR2018} benchmark are
 distinct and have few correlations. As explored by Yuan, J. et al \cite{MIPR}, 
 the significant drop in performance can be attributed to the introduction of 
 many correlating scene categories. 
@@ -83,7 +83,7 @@ extended ``Image-Based 3D Scene Retrieval
 (IBR)'' track is significantly better, compared with that achieved on the back 
 to back extended ``Sketch-Based 3D Scene Retrieval (IBR)'' track. This should 
 be attributed to the same reasons as we 
-have concluded in \cite{SceneIBR18Journal}: IBR has a 
+have concluded in \cite{SceneIBR18Journal, SceneIBR18Website}: IBR has a 
 much larger query training dataset which contains images, instead of sketches, 
 that have much more details and color information as well, which makes the 
 semantic gap between the 2D query image and 3D target scenes much smaller.  
