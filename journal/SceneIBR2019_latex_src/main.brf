@@ -29,13 +29,13 @@
 \backcite {MIPR}{{5}{7}{figure.7}}
 \backcite {3DICPR}{{5}{4.3.2}{subsubsection.4.3.2}}
 \backcite {zhou2017places}{{6}{4.3.3}{subsubsection.4.3.3}}
-\backcite {SceneIBR19}{{6}{5}{table.caption.6}}
-\backcite {MIPR}{{6}{5}{table.caption.6}}
-\backcite {SceneIBR19}{{6}{5}{table.caption.6}}
-\backcite {SceneIBR18Journal, SceneIBR18Website}{{6}{5}{table.caption.6}}
+\backcite {SceneIBR19}{{6}{5}{table.caption.5}}
+\backcite {MIPR}{{6}{5}{table.caption.5}}
+\backcite {SceneIBR19}{{6}{5}{table.caption.5}}
+\backcite {SceneIBR18Journal, SceneIBR18Website}{{6}{5}{table.caption.5}}
 \backcite {SceneIBR18Journal, SceneIBR18Website}{{6}{6.1}{subsection.6.1}}
-\backcite {DBLP:conf/3dor/LiSGABBCEFHHJKORSSYYY12, DBLP:journals/cviu/0013LGSBFFFJMOPS14}{{6}{6.1}{subsection.6.1}}
-\backcite {DBLP:conf/3dor/LiLGSAJST13, DBLP:journals/cviu/0013LGSBFFFJMOPS14}{{6}{6.1}{subsection.6.1}}
+\backcite {DBLP:conf/3dor/LiSGABBCEFHHJKORSSYYY12, DBLP:journals/cviu/0013LGSBFFFJMOPS14}{{7}{6.1}{subsection.6.1}}
+\backcite {DBLP:conf/3dor/LiLGSAJST13, DBLP:journals/cviu/0013LGSBFFFJMOPS14}{{7}{6.1}{subsection.6.1}}
 \backcite {DBLP:conf/3dor/LiLLGSABFFJLOTZ14, DBLP:journals/cviu/LiLLGSABCCFFFLLJKKOTWZZ15}{{7}{6.1}{subsection.6.1}}
 \backcite {DBLP:conf/3dor/0013LDDFQLLLLOT16}{{7}{6.1}{subsection.6.1}}
 \backcite {SceneIBR18Website}{{7}{6.1}{subsection.6.1}}

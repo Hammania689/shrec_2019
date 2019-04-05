@@ -16,9 +16,9 @@ Mike Holenderski\footnotemark[2]$^{6}$,
 Dmitri Jarnikov\footnotemark[2]$^{6}$,
 Khiem T. Le\footnotemark[2]$^{4}$,
 Vlado Menkovski\footnotemark[2]$^{6}$,
-Khac-Tuan Nguyen\footnotemark[2]$^{4,5}$,
+Khac-Tuan Nguyen\footnotemark[2]$^{4}$,
 Thanh-An Nguyen\footnotemark[2]$^{5}$,
-Vinh-Tiep Nguyen\footnotemark[2]$^{7}$,
+Vinh-Tiep Nguyen\footnotemark[2]$^{7}$,\\
 Tu V. Ninh\footnotemark[2]$^{4}$,
 Perez Rey\footnotemark[2]$^{6}$,
 Minh-Triet Tran\footnotemark[2]$^{4,5}$,
@@ -90,8 +90,6 @@ Y. Lu}
 %-------------------------------------------------------------------------
 \section{Conclusions and Future Work}
 \subfile{Sections/conclusions}
-u
-
 %-------------------------------------------------------------------------
 \section{Acknowledgements}
 \subfile{Sections/acknowlegde}
